@@ -76,6 +76,7 @@ public class HandCannon : MonoBehaviour
         // initiate egg swap
         activeEgg.Break(() => {
             player.TeleportPlayer(activeEgg.transform.position);
+            OnTeleport?.Invoke()
         });
     }
 
