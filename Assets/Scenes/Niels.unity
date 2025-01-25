@@ -1971,6 +1971,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerCapsule
       objectReference: {fileID: 0}
+    - target: {fileID: 7051310882256765979, guid: 956aa9c30817a4da196817481f0caf17, type: 3}
+      propertyPath: OnFire.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8366335340965248912, guid: 956aa9c30817a4da196817481f0caf17, type: 3}
       propertyPath: m_LocalPosition.x
       value: 27.69
@@ -2176,6 +2180,14 @@ PrefabInstance:
     - target: {fileID: 8841134670647299968, guid: 9e1f5f00517204a06a4a4e60a6e6a493, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9193485953951366201, guid: 9e1f5f00517204a06a4a4e60a6e6a493, type: 3}
+      propertyPath: onTriggerExit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9193485953951366201, guid: 9e1f5f00517204a06a4a4e60a6e6a493, type: 3}
+      propertyPath: onTriggerEnter.m_PersistentCalls.m_Calls.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9193485953951366201, guid: 9e1f5f00517204a06a4a4e60a6e6a493, type: 3}
       propertyPath: onTriggerExit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
