@@ -20,6 +20,8 @@ public class Egg : MonoBehaviour
     [SerializeField]
     private float minimumTimeBeforeSpeedCheck = 0.2f;
 
+    private bool inRebirthFreeZone = false;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -42,11 +44,6 @@ public class Egg : MonoBehaviour
         rb.AddForce(transform.forward * bulletForce, ForceMode.Impulse);
     }
 
-    public void SetCanRebirth(bool v)
-    {
-        canRebirth = v;
-    }
-
     void Update()
     {
         if (rb == null || UIManager.Instance == null) return;
@@ -54,10 +51,16 @@ public class Egg : MonoBehaviour
 
         aliveTime += Time.deltaTime;
 
-        if (rb.linearVelocity.magnitude < breakSpeedThreshold && !isBreaking && aliveTime > minimumTimeBeforeSpeedCheck)
+        if (rb.linearVelocity.magnitude < breakSpeedThreshold && !isBreaking && aliveTime > minimumTimeBeforeSpeedCheck && inRebirthFreeZone)
         {
             isBreaking = true;
             Break();
         }
+    }
+
+    public void SetInRebirthFreeZone(bool v)
+    {
+        inRebirthFreeZone = v;
+        canRebirth = !v;
     }
 }
