@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2216037093466968629}
   - component: {fileID: 8760186335040422795}
   m_Layer: 0
-  m_Name: SceneManager
+  m_Name: SceneController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44,6 +44,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d678d8c0ced52d34fa58e6f258af5e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadingScreen: {fileID: 0}
-  progressBar: {fileID: 0}
-  progressText: {fileID: 0}

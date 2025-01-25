@@ -4,17 +4,18 @@ using TMPro;
 
 public class LoadingScreen : MonoBehaviour
 {
+    public GameObject container;
     public Slider progressBar;
     public TextMeshProUGUI progressText;
-
+    
     private void Awake()
     {
-        gameObject.SetActive(false);
+        container.SetActive(false);
     }
 
     public void ShowLoadingScreen(float progress)
     {
-        gameObject.SetActive(true);
+        container.SetActive(true);
         UpdateProgress(progress);
     }
 
@@ -28,6 +29,6 @@ public class LoadingScreen : MonoBehaviour
 
     public void HideLoadingScreen()
     {
-        gameObject.SetActive(false);
+        container.SetActive(false);
     }
 }

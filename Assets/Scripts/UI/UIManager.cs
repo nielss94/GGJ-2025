@@ -5,12 +5,13 @@ using UnityEngine.PlayerLoop;
 
 public class UIManager : MonoBehaviour
 {
+    public static event Action OnUIManagerReady;
+    public static UIManager Instance { get; private set; }
+
     [SerializeField]
     private TextMeshProUGUI interactText;
+    [Header("Loading Screen")]
     [SerializeField] private LoadingScreen loadingScreen;
-    public static event Action OnUIManagerReady;
-
-    public static UIManager Instance { get; private set; }
 
     void Awake()
     {

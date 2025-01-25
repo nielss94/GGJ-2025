@@ -18,7 +18,7 @@ public class LevelManager : MonoBehaviour
 
     public void LevelComplete() {
         OnLevelComplete?.Invoke();
-        SceneManager.Instance.LoadLevel(NextLevelName);
+        SceneController.Instance.LoadLevel(NextLevelName);
     }
 
     public void RespawnPlayer()

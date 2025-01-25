@@ -5,18 +5,22 @@ using System.Collections;
 using UnityEngine.UI;
 using TMPro;
 
-public class SceneManager : MonoBehaviour
+public class SceneController : MonoBehaviour
 {
+    [Header("Debug")]
+    [SerializeField] private bool debug;
+    [SerializeField] private float debugDelay;
+    
     private LoadingScreen loadingScreen;
-    private static SceneManager instance;
-    public static SceneManager Instance
+    private static SceneController instance;
+    public static SceneController Instance
     {
         get
         {
             if (instance == null)
             {
-                GameObject go = new GameObject("SceneManager");
-                instance = go.AddComponent<SceneManager>();
+                GameObject go = new GameObject("SceneController");
+                instance = go.AddComponent<SceneController>();
                 DontDestroyOnLoad(go);
             }
             return instance;
@@ -74,7 +78,7 @@ public class SceneManager : MonoBehaviour
             loadingScreen.ShowLoadingScreen(0f);
 
         // Start loading the scene
-        AsyncOperation asyncOperation = UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(sceneName);
+        AsyncOperation asyncOperation = SceneManager.LoadSceneAsync(sceneName);
         asyncOperation.allowSceneActivation = false;
 
         // While the scene is loading
@@ -90,7 +94,7 @@ public class SceneManager : MonoBehaviour
             // Check if loading is complete
             if (asyncOperation.progress >= 0.9f)
             {
-                yield return new WaitForSeconds(0.5f); // Optional delay
+                yield return new WaitForSeconds(debug ? debugDelay : 0.5f); // Optional delay
                 asyncOperation.allowSceneActivation = true;
             }
 
@@ -125,7 +129,7 @@ public class SceneManager : MonoBehaviour
             // Check if loading is complete
             if (asyncOperation.progress >= 0.9f)
             {
-                yield return new WaitForSeconds(0.5f); // Optional delay
+                yield return new WaitForSeconds(debug ? debugDelay : 0.5f); // Optional delay
                 asyncOperation.allowSceneActivation = true;
             }
 
