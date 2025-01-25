@@ -14,6 +14,7 @@ public class MovingPlatform : MonoBehaviour
     private Rigidbody rb;
 
     private bool isActive;
+    private float timer = 0f;
 
     void Start()
     {
@@ -24,7 +25,8 @@ public class MovingPlatform : MonoBehaviour
     {
         if (rb == null || !isActive) return;
         
-        rb.MovePosition(Vector3.Lerp(pointA.position, pointB.position, Mathf.PingPong(Time.time * speed, 1f)));
+        timer += Time.fixedDeltaTime * speed;
+        rb.MovePosition(Vector3.Lerp(pointA.position, pointB.position, Mathf.PingPong(timer, 1f)));
     }
 
     public void Toggle()
