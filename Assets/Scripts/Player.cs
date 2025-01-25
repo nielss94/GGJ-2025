@@ -10,8 +10,8 @@ public class Player : MonoBehaviour
     [SerializeField] private float maxWarpFOV = 130f;
     [SerializeField] private float minWarpFOVIncrease = 50f;
     [SerializeField] private float maxWarpDistance = 10f;
-    [SerializeField] private float minWarpDuration = 0.3f;
-    [SerializeField] private float maxWarpDuration = 0.4f;
+    [SerializeField] private float minWarpDuration = 0.5f;
+    [SerializeField] private float maxWarpDuration = 1.2f;
     [SerializeField] private bool rotateTowardsDestination = true;
     [SerializeField] private bool resetXRotation = true;
 
@@ -48,7 +48,6 @@ public class Player : MonoBehaviour
     }
 
     public void TeleportPlayer(Vector3 position) {
-        travelingEmitter.SetTraveling(1);
         var sequence = DOTween.Sequence();
         
         float originalFOV = mainCamera.fieldOfView;
@@ -58,7 +57,8 @@ public class Player : MonoBehaviour
         float distanceScale = Mathf.Clamp01(distance / maxWarpDistance);
         
         float warpFOV = Mathf.Lerp(originalFOV + minWarpFOVIncrease, maxWarpFOV, distanceScale);
-        float moveDuration = Mathf.Lerp(minWarpDuration, maxWarpDuration, distanceScale);
+        // Exponential scaling for duration based on distance
+        float moveDuration = minWarpDuration + (maxWarpDuration - minWarpDuration) * (distanceScale * distanceScale);
         
         var moveSequence = DOTween.Sequence()
             .Join(transform.DOMove(position, moveDuration).SetEase(Ease.InOutQuint))
@@ -91,8 +91,9 @@ public class Player : MonoBehaviour
             // Warp in effect
             .Append(mainCamera.DOFieldOfView(originalFOV, moveDuration * 0.5f).SetEase(Ease.OutExpo))
             .AppendCallback(() => {
-                travelingEmitter.SetTraveling(0);
                 Events.Rebirth();
+            }).OnUpdate(() => {
+                travelingEmitter.SetTraveling(sequence.ElapsedPercentage());
             });
     }
 }

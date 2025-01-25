@@ -12,6 +12,6 @@ public class GGJ2025EventEmitter : StudioEventEmitter
     }
 
     public void SetTraveling(float value) {
-        SetParameter("travelling", value);
+        SetParameter("travelling_smooth", value);
     }
 }

@@ -1967,9 +1967,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 851875345349209221, guid: 956aa9c30817a4da196817481f0caf17, type: 3}
+      propertyPath: Params.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 851875345349209221, guid: 956aa9c30817a4da196817481f0caf17, type: 3}
+      propertyPath: Params.Array.data[0].Name
+      value: travelling_smooth
+      objectReference: {fileID: 0}
+    - target: {fileID: 851875345349209221, guid: 956aa9c30817a4da196817481f0caf17, type: 3}
+      propertyPath: Params.Array.data[1].Name
+      value: travelling_smooth
+      objectReference: {fileID: 0}
+    - target: {fileID: 851875345349209221, guid: 956aa9c30817a4da196817481f0caf17, type: 3}
+      propertyPath: Params.Array.data[0].Value
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7003817557649108951, guid: 956aa9c30817a4da196817481f0caf17, type: 3}
       propertyPath: m_Name
       value: PlayerCapsule
+      objectReference: {fileID: 0}
+    - target: {fileID: 7620460534309501243, guid: 956aa9c30817a4da196817481f0caf17, type: 3}
+      propertyPath: maxWarpDuration
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8366335340965248912, guid: 956aa9c30817a4da196817481f0caf17, type: 3}
       propertyPath: m_LocalPosition.x

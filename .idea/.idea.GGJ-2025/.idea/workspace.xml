@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3932a6d3-351e-421c-9999-a1e5f2a968b0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/RuntimeUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/RuntimeUtils.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Niels Copy Milan.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Niels Copy Milan.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Niels.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Niels.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HandCannon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HandCannon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +130,7 @@
       <option name="presentableId" value="Default" />
       <updated>1737737892734</updated>
       <workItem from="1737737894010" duration="2000" />
-      <workItem from="1737738427782" duration="2183000" />
+      <workItem from="1737738427782" duration="3078000" />
     </task>
     <servers />
   </component>
