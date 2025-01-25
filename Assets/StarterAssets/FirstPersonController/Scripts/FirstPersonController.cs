@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Unity.VisualScripting;
+using UnityEngine;
 #if ENABLE_INPUT_SYSTEM
 using UnityEngine.InputSystem;
 #endif
@@ -64,6 +65,11 @@ namespace StarterAssets
 		private float _jumpTimeoutDelta;
 		private float _fallTimeoutDelta;
 
+		// Platform movement
+		private Rigidbody _currentPlatform;
+		private Vector3 _lastPlatformPosition;
+		private Vector3 _platformVelocity;
+
 	
 #if ENABLE_INPUT_SYSTEM
 		private PlayerInput _playerInput;
@@ -122,11 +128,45 @@ namespace StarterAssets
 			CameraRotation();
 		}
 
+
 		private void GroundedCheck()
 		{
 			// set sphere position, with offset
 			Vector3 spherePosition = new Vector3(transform.position.x, transform.position.y - GroundedOffset, transform.position.z);
 			Grounded = Physics.CheckSphere(spherePosition, GroundedRadius, GroundLayers, QueryTriggerInteraction.Ignore);
+
+			// Check if we're on a moving platform
+			if (Grounded)
+			{
+				RaycastHit hit;
+				if (Physics.Raycast(transform.position, Vector3.down, out hit, GroundedOffset + .5f))
+				{
+					Debug.Log("Hit: " + hit.collider.name);
+					Rigidbody hitRigidbody = hit.collider.GetComponentInParent<Rigidbody>();
+					if (hitRigidbody != null && hit.collider.GetComponentInParent<MovingPlatform>() != null)
+					{
+						Debug.Log("On a moving platform");
+						if (_currentPlatform != hitRigidbody)
+						{
+							_currentPlatform = hitRigidbody;
+							_lastPlatformPosition = _currentPlatform.position;
+						}
+						Vector3 platformDelta = _currentPlatform.position - _lastPlatformPosition;
+						_platformVelocity = platformDelta / Time.deltaTime;
+						_lastPlatformPosition = _currentPlatform.position;
+					}
+					else
+					{
+						_currentPlatform = null;
+						_platformVelocity = Vector3.zero;
+					}
+				}
+			}
+			else
+			{
+				_currentPlatform = null;
+				_platformVelocity = Vector3.zero;
+			}
 		}
 
 		private void CameraRotation()
@@ -194,8 +234,18 @@ namespace StarterAssets
 				inputDirection = transform.right * _input.move.x + transform.forward * _input.move.y;
 			}
 
+			// Calculate final movement including platform velocity
+			Vector3 finalMovement = (inputDirection.normalized * (_speed * Time.deltaTime)) + 
+								  (new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime);
+
+			// Add platform velocity if we're on a moving platform
+			if (_currentPlatform != null)
+			{
+				finalMovement += _platformVelocity * Time.deltaTime;
+			}
+
 			// move the player
-			_controller.Move(inputDirection.normalized * (_speed * Time.deltaTime) + new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime);
+			_controller.Move(finalMovement);
 		}
 
 		private void JumpAndGravity()
