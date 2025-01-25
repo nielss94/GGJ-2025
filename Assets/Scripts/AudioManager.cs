@@ -24,6 +24,11 @@ public class AudioManager : MonoBehaviour
         MusicVolume = PlayerPrefs.GetFloat("musicVolume", 0.7f);
         SfxVolume = PlayerPrefs.GetFloat("sfxVolume", 0.7f);
         DialogueVolume = PlayerPrefs.GetFloat("dialogueVolume", 0.7f);
+
+        FMODUnity.RuntimeManager.StudioSystem.setParameterByName("MasterVolume", MasterVolume);
+        FMODUnity.RuntimeManager.StudioSystem.setParameterByName("AmbianceVolume", MusicVolume);
+        FMODUnity.RuntimeManager.StudioSystem.setParameterByName("SoundFXVolume", SfxVolume);
+        FMODUnity.RuntimeManager.StudioSystem.setParameterByName("DialogueVolume", DialogueVolume);
     }
 
     public void SetMasterVolume(float value) {
