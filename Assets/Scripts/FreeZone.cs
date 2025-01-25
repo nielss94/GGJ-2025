@@ -3,11 +3,22 @@ using UnityEngine;
 
 public class FreeZone : MonoBehaviour
 {
+    [Header("Debug")]
+    [SerializeField] private bool debug;
+
     [SerializeField]
     private bool rebirthFreeZone;
 
     [SerializeField]
     private bool shootingFreeZone;
+
+    private MeshRenderer meshRenderer;
+
+    private void Awake()
+    {
+        meshRenderer = GetComponent<MeshRenderer>();
+        meshRenderer.enabled = debug;
+    }
 
     void OnTriggerEnter(Collider other)
     {
