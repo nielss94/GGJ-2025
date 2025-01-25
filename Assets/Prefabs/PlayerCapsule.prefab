@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 7051310882256765979}
   - component: {fileID: 8061290118705545861}
   - component: {fileID: 4252698471520796401}
+  - component: {fileID: 566121056247184806}
+  - component: {fileID: 8036817910914079546}
   m_Layer: 0
   m_Name: HandCannon
   m_TagString: Untagged
@@ -49,18 +51,18 @@ MonoBehaviour:
   OnFire:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 0
+      - m_Target: {fileID: 566121056247184806}
+        m_TargetAssemblyTypeName: GGJ2025EventEmitter, Assembly-CSharp
+        m_MethodName: Trigger
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 0
+        m_CallState: 2
   OnTeleport:
     m_PersistentCalls:
       m_Calls:
@@ -78,7 +80,19 @@ MonoBehaviour:
         m_CallState: 2
   OnCancel:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8036817910914079546}
+        m_TargetAssemblyTypeName: GGJ2025EventEmitter, Assembly-CSharp
+        m_MethodName: Trigger
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   eggTeleportTime: 0.2
   activeEgg: {fileID: 0}
   eggPrefab: {fileID: -7684051323602327870, guid: f7a7bba2db60f4ee78dc79c68eae4003, type: 3}
@@ -123,6 +137,68 @@ MonoBehaviour:
       Data3: -2012940667
       Data4: 1775075897
     Path: event:/travel_in
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &566121056247184806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301410025388662016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9513da8a162e44a79a75bd5089aa27cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -525242186
+      Data2: 1321158665
+      Data3: 1684838289
+      Data4: 1396205878
+    Path: event:/travel_out
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &8036817910914079546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301410025388662016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9513da8a162e44a79a75bd5089aa27cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1753526809
+      Data2: 1278417369
+      Data3: 866889380
+      Data4: -1299639913
+    Path: event:/cancel_egg
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
@@ -749,7 +825,7 @@ MonoBehaviour:
   minWarpFOVIncrease: 50
   maxWarpDistance: 10
   minWarpDuration: 0.3
-  maxWarpDuration: 0.5
+  maxWarpDuration: 0.8
   rotateTowardsDestination: 1
   resetXRotation: 0
   travelingEmitter: {fileID: 851875345349209221}
