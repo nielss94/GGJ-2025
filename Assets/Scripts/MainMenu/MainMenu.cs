@@ -3,8 +3,9 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    [SerializeField] private string nextLevelName;
    
     public void StartGame() {
-        SceneController.Instance.LoadLevel("Level_01");
+        SceneController.Instance.LoadLevel(nextLevelName);
     }
 }
