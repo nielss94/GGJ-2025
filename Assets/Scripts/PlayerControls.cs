@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class PlayerControls : MonoBehaviour
 {
+    [SerializeField]
+    private PlayerInteraction playerInteraction;
 
     [SerializeField]
     private HandCannon handCannon;
@@ -20,5 +22,10 @@ public class PlayerControls : MonoBehaviour
     void OnTeleport()
     {
         handCannon.Teleport();
+    }
+
+    void OnInteract()
+    {
+        playerInteraction.Interact();
     }
 }

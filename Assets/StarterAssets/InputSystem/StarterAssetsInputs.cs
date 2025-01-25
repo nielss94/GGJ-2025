@@ -11,6 +11,7 @@ namespace StarterAssets
 		public event Action OnFirePressed;
 		public event Action OnCancelPressed;
 		public event Action OnTeleportPressed;
+		public event Action OnInteractPressed;
 
 		[Header("Character Input Values")]
 		public Vector2 move;
@@ -63,6 +64,11 @@ namespace StarterAssets
 		public void OnTeleport(InputValue value)
 		{
 			OnTeleportPressed?.Invoke();
+		}
+
+		public void OnInteract(InputValue value)
+		{
+			OnInteractPressed?.Invoke();
 		}
 #endif
 
