@@ -23,7 +23,7 @@ public class HandCannon : MonoBehaviour
 
     [Header("Input")]
     [SerializeField]
-    private GameObject player;
+    private Player player;
 
     public void Fire()
     {
@@ -55,9 +55,7 @@ public class HandCannon : MonoBehaviour
 
         // initiate egg swap
         activeEgg.Break(() => {
-            player.GetComponent<CharacterController>().enabled = false;
-            player.transform.position = activeEgg.transform.position;
-            player.GetComponent<CharacterController>().enabled = true;
+            player.TeleportPlayer(activeEgg.transform.position);
         });
     }
 
