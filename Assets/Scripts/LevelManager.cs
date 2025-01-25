@@ -1,15 +1,24 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class LevelManager : MonoBehaviour
 {
+    public event Action OnLevelComplete;
+
+    [SerializeField] private string NextLevelName;
     [SerializeField] private Player player;
 
     private List<Vector3> playerSpawnPositions = new List<Vector3>();
 
-    void Start()
+    void Awake()
     {
         PlayerSetup();
+    }
+
+    public void LevelComplete() {
+        OnLevelComplete?.Invoke();
+        SceneController.Instance.LoadLevel(NextLevelName);
     }
 
     public void RespawnPlayer()
