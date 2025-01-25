@@ -7,6 +7,7 @@ using TMPro;
 
 public class SceneManager : MonoBehaviour
 {
+    private LoadingScreen loadingScreen;
     private static SceneManager instance;
     public static SceneManager Instance
     {
@@ -22,11 +23,6 @@ public class SceneManager : MonoBehaviour
         }
     }
 
-    private GameObject loadingScreen;
-    private Slider progressBar;
-    private TextMeshProUGUI progressText;
-
-
     private void Awake()
     {
         if (instance != null && instance != this)
@@ -37,11 +33,28 @@ public class SceneManager : MonoBehaviour
 
         instance = this;
         DontDestroyOnLoad(gameObject);
-
-        if (UIManager.Instance != null) {
+        
+        // Get loading screen reference from UIManager
+        if (UIManager.Instance != null)
+        {
             loadingScreen = UIManager.Instance.GetLoadingScreen();
         }
-            
+    }
+
+    // Subscribe to UIManager when it's created
+    private void OnEnable()
+    {
+        UIManager.OnUIManagerReady += HandleUIManagerReady;
+    }
+
+    private void OnDisable()
+    {
+        UIManager.OnUIManagerReady -= HandleUIManagerReady;
+    }
+
+    private void HandleUIManagerReady()
+    {
+        loadingScreen = UIManager.Instance.GetLoadingScreen();
     }
 
     public void LoadLevel(string sceneName)
@@ -58,7 +71,7 @@ public class SceneManager : MonoBehaviour
     {
         // Show loading screen
         if (loadingScreen != null)
-            loadingScreen.SetActive(true);
+            loadingScreen.ShowLoadingScreen(0f);
 
         // Start loading the scene
         AsyncOperation asyncOperation = UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(sceneName);
@@ -70,16 +83,13 @@ public class SceneManager : MonoBehaviour
             // Calculate progress
             float progress = Mathf.Clamp01(asyncOperation.progress / 0.9f);
 
-            // Update UI elements if they exist
-            if (progressBar != null)
-                progressBar.value = progress;
-            if (progressText != null)
-                progressText.text = $"Loading... {progress * 100:0}%";
+            // Update loading screen
+            if (loadingScreen != null)
+                loadingScreen.UpdateProgress(progress);
 
             // Check if loading is complete
             if (asyncOperation.progress >= 0.9f)
             {
-                // Wait for any additional conditions if needed
                 yield return new WaitForSeconds(0.5f); // Optional delay
                 asyncOperation.allowSceneActivation = true;
             }
@@ -89,14 +99,14 @@ public class SceneManager : MonoBehaviour
 
         // Hide loading screen
         if (loadingScreen != null)
-            loadingScreen.SetActive(false);
+            loadingScreen.HideLoadingScreen();
     }
 
     private IEnumerator LoadLevelAsync(int sceneIndex)
     {
         // Show loading screen
         if (loadingScreen != null)
-            loadingScreen.SetActive(true);
+            loadingScreen.ShowLoadingScreen(0f);
 
         // Start loading the scene
         AsyncOperation asyncOperation = UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(sceneIndex);
@@ -108,16 +118,13 @@ public class SceneManager : MonoBehaviour
             // Calculate progress
             float progress = Mathf.Clamp01(asyncOperation.progress / 0.9f);
 
-            // Update UI elements if they exist
-            if (progressBar != null)
-                progressBar.value = progress;
-            if (progressText != null)
-                progressText.text = $"Loading... {progress * 100:0}%";
+            // Update loading screen
+            if (loadingScreen != null)
+                loadingScreen.UpdateProgress(progress);
 
             // Check if loading is complete
             if (asyncOperation.progress >= 0.9f)
             {
-                // Wait for any additional conditions if needed
                 yield return new WaitForSeconds(0.5f); // Optional delay
                 asyncOperation.allowSceneActivation = true;
             }
@@ -127,7 +134,7 @@ public class SceneManager : MonoBehaviour
 
         // Hide loading screen
         if (loadingScreen != null)
-            loadingScreen.SetActive(false);
+            loadingScreen.HideLoadingScreen();
     }
 
     public int GetCurrentSceneIndex()

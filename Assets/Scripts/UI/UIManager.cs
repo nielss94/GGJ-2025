@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
@@ -6,7 +7,8 @@ public class UIManager : MonoBehaviour
 {
     [SerializeField]
     private TextMeshProUGUI interactText;
-    [SerializeField] private GameObject loadingScreen;
+    [SerializeField] private LoadingScreen loadingScreen;
+    public static event Action OnUIManagerReady;
 
     public static UIManager Instance { get; private set; }
 
@@ -22,12 +24,18 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        OnUIManagerReady?.Invoke();
+    }
+
     public void SetInteractText(string text)
     {
         interactText.text = text;
     }
 
-    public GameObject GetLoadingScreen() {
+    public LoadingScreen GetLoadingScreen()
+    {
         return loadingScreen;
-    }   
+    }
 }
