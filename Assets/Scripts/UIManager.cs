@@ -5,6 +5,7 @@ public class UIManager : MonoBehaviour
 {
     [SerializeField]
     private TextMeshProUGUI interactText;
+    [SerializeField] private GameObject loadingScreen;
 
     public static UIManager Instance { get; private set; }
 
@@ -24,4 +25,8 @@ public class UIManager : MonoBehaviour
     {
         interactText.text = text;
     }
+
+    public GameObject GetLoadingScreen() {
+        return loadingScreen;
+    }   
 }

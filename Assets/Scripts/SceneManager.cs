@@ -22,10 +22,10 @@ public class SceneManager : MonoBehaviour
         }
     }
 
-    [Header("Loading Screen")]
-    [SerializeField] private GameObject loadingScreen;
-    [SerializeField] private Slider progressBar;
-    [SerializeField] private TextMeshProUGUI progressText;
+    private GameObject loadingScreen;
+    private Slider progressBar;
+    private TextMeshProUGUI progressText;
+
 
     private void Awake()
     {
@@ -37,6 +37,11 @@ public class SceneManager : MonoBehaviour
 
         instance = this;
         DontDestroyOnLoad(gameObject);
+
+        if (UIManager.Instance != null) {
+            loadingScreen = UIManager.Instance.GetLoadingScreen();
+        }
+            
     }
 
     public void LoadLevel(string sceneName)
