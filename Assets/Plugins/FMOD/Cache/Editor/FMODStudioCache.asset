@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Assets/Audio/SlijmAudio/Build/Desktop/Global.bank
   Name: Global
   StudioPath: bank:/New Folder/Global
-  lastModified: 638734301466384721
+  lastModified: 638734293066184982
   FileSizes:
   - Name: Desktop
     Value: 5340000
@@ -89,7 +89,7 @@ MonoBehaviour:
   Path: Assets/Audio/SlijmAudio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638734301466384721
+  lastModified: 638734278246751190
   FileSizes:
   - Name: Desktop
     Value: 26624
@@ -110,16 +110,39 @@ MonoBehaviour:
   - {fileID: 967990597809302411}
   - {fileID: -4820380196099477603}
   - {fileID: -1079881729062164402}
+  - {fileID: 44379959230793167}
   EditorEvents:
   - {fileID: -4113536918656302395}
   - {fileID: 1952145822482455253}
+  - {fileID: 4443220657146634831}
+  - {fileID: 3213354094675966672}
   EditorParameters: []
   MasterBanks:
   - {fileID: -1079881729062164402}
   StringsBanks:
   - {fileID: 967990597809302411}
-  cacheTime: 638734301466399201
+  cacheTime: 638734315478346719
   cacheVersion: 131622
+--- !u!114 &44379959230793167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/player_sounds.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/SlijmAudio/Build/Desktop/player_sounds.bank
+  Name: player_sounds
+  StudioPath: bank:/player_sounds
+  lastModified: 638734315478346719
+  FileSizes:
+  - Name: Desktop
+    Value: 42368
+  Exists: 1
 --- !u!114 &967990597809302411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -135,10 +158,10 @@ MonoBehaviour:
   Path: Assets/Audio/SlijmAudio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638734301466399201
+  lastModified: 638734315478344767
   FileSizes:
   - Name: Desktop
-    Value: 1106
+    Value: 1246
   Exists: 1
 --- !u!114 &1952145822482455253
 MonoBehaviour:
@@ -217,3 +240,57 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &3213354094675966672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/travel_out
+  m_EditorClassIdentifier: 
+  Path: event:/travel_out
+  Guid:
+    Data1: -525242186
+    Data2: 1321158665
+    Data3: 1684838289
+    Data4: 1396205878
+  Banks:
+  - {fileID: 44379959230793167}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &4443220657146634831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/travel_in
+  m_EditorClassIdentifier: 
+  Path: event:/travel_in
+  Guid:
+    Data1: 1387162468
+    Data2: 1109163024
+    Data3: -2012940667
+    Data4: 1775075897
+  Banks:
+  - {fileID: 44379959230793167}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{39ab011f-5b51-4275-b3d9-72f8b25592c8}">
+		<property name="assetPath">
+			<value>player_sounds/travel_out_2.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.49632653061224491</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a07f1021-1e53-4b15-aa65-28f5967d30e5}</destination>
+		</relationship>
+	</object>
+</objects>

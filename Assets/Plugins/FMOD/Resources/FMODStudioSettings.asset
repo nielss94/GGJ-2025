@@ -489,6 +489,7 @@ MonoBehaviour:
   - Master
   Banks:
   - Global
+  - player_sounds
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0

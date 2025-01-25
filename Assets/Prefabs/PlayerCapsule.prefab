@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3524438811208279652}
   - component: {fileID: 7051310882256765979}
-  - component: {fileID: 7368715241003224615}
+  - component: {fileID: 8061290118705545861}
+  - component: {fileID: 4252698471520796401}
   m_Layer: 0
   m_Name: HandCannon
   m_TagString: Untagged
@@ -47,10 +48,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OnFire:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 0
   OnTeleport:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4252698471520796401}
+        m_TargetAssemblyTypeName: GGJ2025EventEmitter, Assembly-CSharp
+        m_MethodName: Trigger
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCancel:
     m_PersistentCalls:
       m_Calls: []
@@ -60,7 +85,25 @@ MonoBehaviour:
   bulletForce: 15
   firePoint: {fileID: 19496968908087142}
   player: {fileID: 7620460534309501243}
---- !u!114 &7368715241003224615
+--- !u!114 &8061290118705545861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301410025388662016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9468c5f457ace64f8d4df6d642b107f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LoadEvent: 1
+  UnloadEvent: 0
+  Banks:
+  - player_sounds
+  CollisionTag: 
+  PreloadSamples: 0
+--- !u!114 &4252698471520796401
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -75,11 +118,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1960461453
-      Data2: 1289040617
-      Data3: 480656054
-      Data4: 1584504142
-    Path: event:/event test
+      Data1: 1387162468
+      Data2: 1109163024
+      Data3: -2012940667
+      Data4: 1775075897
+    Path: event:/travel_in
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
@@ -102,7 +145,6 @@ GameObject:
   - component: {fileID: 8255114056175302688}
   - component: {fileID: 6362438814478882799}
   - component: {fileID: 8688279255344923553}
-  - component: {fileID: 6466422744095340152}
   - component: {fileID: 1571196401079259633}
   - component: {fileID: 7887069100417247407}
   - component: {fileID: 851875345349209221}
@@ -321,24 +363,6 @@ MonoBehaviour:
       enableFptlForForwardOpaque: 0
       enableBigTilePrepass: 0
       isFptlEnabled: 0
---- !u!114 &6466422744095340152
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 765049920100838120}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9468c5f457ace64f8d4df6d642b107f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LoadEvent: 1
-  UnloadEvent: 0
-  Banks:
-  - Global
-  CollisionTag: 
-  PreloadSamples: 0
 --- !u!114 &1571196401079259633
 MonoBehaviour:
   m_ObjectHideFlags: 0
