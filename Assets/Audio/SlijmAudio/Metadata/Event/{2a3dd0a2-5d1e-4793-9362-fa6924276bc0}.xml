@@ -104,7 +104,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{ca2613d3-7577-4f1c-867d-6d6064be6131}">
 		<property name="volume">
-			<value>-14.5</value>
+			<value>-17</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{b16ec99d-9607-4515-ab18-2450c6946070}</destination>
@@ -186,6 +186,9 @@
 		</property>
 		<property name="spawnRate">
 			<value>28</value>
+		</property>
+		<property name="maximumScatterDistance">
+			<value>950</value>
 		</property>
 		<property name="pitchRandomization">
 			<value>3.4000001</value>

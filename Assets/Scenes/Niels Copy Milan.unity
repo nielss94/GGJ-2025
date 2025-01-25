@@ -1974,6 +1974,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 765049920100838120, guid: 956aa9c30817a4da196817481f0caf17, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2023878894}
+    - targetCorrespondingSourceObject: {fileID: 765049920100838120, guid: 956aa9c30817a4da196817481f0caf17, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2023878902}
+    - targetCorrespondingSourceObject: {fileID: 765049920100838120, guid: 956aa9c30817a4da196817481f0caf17, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2023878903}
     - targetCorrespondingSourceObject: {fileID: 301410025388662016, guid: 956aa9c30817a4da196817481f0caf17, type: 3}
       insertIndex: -1
       addedObject: {fileID: 583394411}
@@ -2069,6 +2075,38 @@ MonoBehaviour:
   - Master
   CollisionTag: 
   PreloadSamples: 0
+--- !u!114 &2023878902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023878887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Parameter: AmbianceVolume
+  TriggerEvent: 1
+  Value: 1
+--- !u!114 &2023878903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023878887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Parameter: SoundFXVolume
+  TriggerEvent: 1
+  Value: 1
 --- !u!4 &68455544761858269
 Transform:
   m_ObjectHideFlags: 0
