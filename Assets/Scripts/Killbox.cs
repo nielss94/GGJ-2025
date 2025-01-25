@@ -2,6 +2,17 @@ using UnityEngine;
 
 public class Killbox : MonoBehaviour
 {
+    [Header("Debug")]
+    [SerializeField] private bool debug;
+    
+    private MeshRenderer meshRenderer;
+
+    private void Awake()
+    {
+        meshRenderer = GetComponent<MeshRenderer>();
+        meshRenderer.enabled = debug;
+    }
+
     void OnTriggerEnter(Collider other)
     {
         if (other.TryGetComponent<Player>(out Player player))
@@ -16,6 +27,7 @@ public class Killbox : MonoBehaviour
 
     private void OnDrawGizmos()
     {
+        if (!debug) return;
         // Set the color to red for visibility
         Gizmos.color = new Color(1, 0, 0, 0.5f);
         
