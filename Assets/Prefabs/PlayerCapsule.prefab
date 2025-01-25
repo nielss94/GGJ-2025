@@ -99,6 +99,7 @@ MonoBehaviour:
   eggTeleportTime: 0.2
   activeEgg: {fileID: 0}
   eggPrefab: {fileID: -7684051323602327870, guid: f7a7bba2db60f4ee78dc79c68eae4003, type: 3}
+  cancelBreakDelay: 0.5
   bulletForce: 15
   firePoint: {fileID: 19496968908087142}
   player: {fileID: 7620460534309501243}
@@ -832,6 +833,7 @@ MonoBehaviour:
   maxWarpDistance: 10
   minWarpDuration: 0.3
   maxWarpDuration: 0.8
+  firstTeleportDuration: 1
   rotateTowardsDestination: 1
   resetXRotation: 0
   travelingEmitter: {fileID: 851875345349209221}

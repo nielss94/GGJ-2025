@@ -106,6 +106,10 @@ public class HandCannon : MonoBehaviour
             return;
         }
 
+        if (activeEgg.IsBreaking || activeEgg.Animating) {
+            return;
+        }
+
         // initiate egg swap
         initialTeleportFinished = true;
         activeEgg.AnimateAndBreak();

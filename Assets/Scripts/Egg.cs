@@ -19,6 +19,7 @@ public class Egg : MonoBehaviour
     [SerializeField]
     private float breakSpeedThreshold = 0.1f;
     private bool isBreaking = false;
+    public bool IsBreaking { get { return isBreaking; } }
     private float aliveTime = 0f;
 
     [SerializeField]
@@ -43,6 +44,8 @@ public class Egg : MonoBehaviour
 
     private MeshRenderer[] bubbles;
 
+    private bool animating = false;
+    public bool Animating { get { return animating; } }
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -58,7 +61,8 @@ public class Egg : MonoBehaviour
 
     public void AnimateAndBreak()
     {
-        // animation sound??
+        if (animating) return;
+        animating = true;
         AnimateBreaking(() => {
             Break();
         });
