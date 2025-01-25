@@ -1698,10 +1698,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6362438814478882799, guid: 956aa9c30817a4da196817481f0caf17, type: 3}
-      propertyPath: field of view
-      value: 70
-      objectReference: {fileID: 0}
     - target: {fileID: 7003817557649108951, guid: 956aa9c30817a4da196817481f0caf17, type: 3}
       propertyPath: m_Name
       value: PlayerCapsule

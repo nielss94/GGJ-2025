@@ -141,11 +141,9 @@ namespace StarterAssets
 				RaycastHit hit;
 				if (Physics.Raycast(transform.position, Vector3.down, out hit, GroundedOffset + .5f))
 				{
-					Debug.Log("Hit: " + hit.collider.name);
 					Rigidbody hitRigidbody = hit.collider.GetComponentInParent<Rigidbody>();
 					if (hitRigidbody != null && hit.collider.GetComponentInParent<MovingPlatform>() != null)
 					{
-						Debug.Log("On a moving platform");
 						if (_currentPlatform != hitRigidbody)
 						{
 							_currentPlatform = hitRigidbody;
