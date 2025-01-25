@@ -13,7 +13,7 @@ public class FreeZone : MonoBehaviour
     {
         if (rebirthFreeZone && other.TryGetComponent<Egg>(out Egg egg))
         {
-            egg.SetCanRebirth(false);
+            egg.SetInRebirthFreeZone(true);
         }
 
         if (shootingFreeZone && other.TryGetComponent<PlayerControls>(out PlayerControls player))
@@ -26,7 +26,7 @@ public class FreeZone : MonoBehaviour
     {
         if (rebirthFreeZone && other.TryGetComponent<Egg>(out Egg egg))
         {
-            egg.SetCanRebirth(true);
+            egg.SetInRebirthFreeZone(false);
         }
 
         if (shootingFreeZone && other.TryGetComponent<PlayerControls>(out PlayerControls player))
