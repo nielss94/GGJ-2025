@@ -73,12 +73,17 @@ public class HandCannon : MonoBehaviour
             Debug.Log("Cant fire, player is not grounded");
             return;
         }
+        
+        OnFire?.Invoke();
+        eggActivationTime = Time.time;
+        StartCoroutine(WaitAndFire());
+    }
 
+    private IEnumerator WaitAndFire() {
+        yield return new WaitForSeconds(.2f);
         activeEgg = Instantiate(eggPrefab, firePoint.position, firePoint.rotation);
         activeEgg.Launch(bulletForce);
-        eggActivationTime = Time.time;
         activeEgg.OnBreak += OnEggBreak;
-        OnFire?.Invoke();
     }
 
     public void Teleport()
