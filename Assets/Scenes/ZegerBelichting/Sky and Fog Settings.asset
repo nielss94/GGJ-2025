@@ -206,8 +206,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   mode:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 1
   meteringMode:
     m_OverrideState: 0
     m_Value: 2
@@ -221,11 +221,11 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
   limitMin:
-    m_OverrideState: 0
-    m_Value: -1
+    m_OverrideState: 1
+    m_Value: -1.5
   limitMax:
-    m_OverrideState: 0
-    m_Value: 14
+    m_OverrideState: 1
+    m_Value: 4.5
   curveMap:
     m_OverrideState: 0
     m_Value:
@@ -421,7 +421,7 @@ MonoBehaviour:
   active: 1
   temperature:
     m_OverrideState: 1
-    m_Value: -50
+    m_Value: 0
   tint:
     m_OverrideState: 1
     m_Value: 0
