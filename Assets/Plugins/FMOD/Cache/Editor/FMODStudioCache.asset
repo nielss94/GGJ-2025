@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Assets/Audio/SlijmAudio/Build/Desktop/Global.bank
   Name: Global
   StudioPath: bank:/New Folder/Global
-  lastModified: 638734291787762008
+  lastModified: 638734293066184982
   FileSizes:
   - Name: Desktop
     Value: 5340000
@@ -89,7 +89,7 @@ MonoBehaviour:
   Path: Assets/Audio/SlijmAudio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638734308729728939
+  lastModified: 638734278246751190
   FileSizes:
   - Name: Desktop
     Value: 26624
@@ -121,7 +121,7 @@ MonoBehaviour:
   - {fileID: -1079881729062164402}
   StringsBanks:
   - {fileID: 967990597809302411}
-  cacheTime: 638734308730168232
+  cacheTime: 638734315478346719
   cacheVersion: 131622
 --- !u!114 &44379959230793167
 MonoBehaviour:
@@ -138,7 +138,7 @@ MonoBehaviour:
   Path: Assets/Audio/SlijmAudio/Build/Desktop/player_sounds.bank
   Name: player_sounds
   StudioPath: bank:/player_sounds
-  lastModified: 638734308730168232
+  lastModified: 638734315478346719
   FileSizes:
   - Name: Desktop
     Value: 42368
@@ -158,7 +158,7 @@ MonoBehaviour:
   Path: Assets/Audio/SlijmAudio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638734308729738964
+  lastModified: 638734315478344767
   FileSizes:
   - Name: Desktop
     Value: 1246
