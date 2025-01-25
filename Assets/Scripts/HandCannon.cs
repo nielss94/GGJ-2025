@@ -1,11 +1,13 @@
 using System;
 using StarterAssets;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.InputSystem;
 using UnityEngine.PlayerLoop;
 
 public class HandCannon : MonoBehaviour
 {
+    public UnityEvent OnFire;
     [Header("Firing options")]
     [SerializeField]
     private float eggTeleportTime;
@@ -46,6 +48,7 @@ public class HandCannon : MonoBehaviour
         activeEgg.Launch(bulletForce);
         eggActivationTime = Time.time;
         activeEgg.OnBreak += OnEggBreak;
+        OnFire?.Invoke();
     }
 
     public void Teleport()
