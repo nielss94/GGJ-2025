@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 #if ENABLE_INPUT_SYSTEM
 using UnityEngine.InputSystem;
@@ -7,6 +8,10 @@ namespace StarterAssets
 {
 	public class StarterAssetsInputs : MonoBehaviour
 	{
+		public event Action OnFirePressed;
+		public event Action OnCancelPressed;
+		public event Action OnTeleportPressed;
+
 		[Header("Character Input Values")]
 		public Vector2 move;
 		public Vector2 look;
@@ -43,6 +48,22 @@ namespace StarterAssets
 		{
 			SprintInput(value.isPressed);
 		}
+
+		public void OnFire(InputValue value)
+		{
+			Debug.Log("Fire pls");
+			OnFirePressed?.Invoke();
+		}
+
+		public void OnCancel(InputValue value)
+		{
+			OnCancelPressed?.Invoke();
+		}
+
+		public void OnTeleport(InputValue value)
+		{
+			OnTeleportPressed?.Invoke();
+		}
 #endif
 
 
@@ -65,7 +86,7 @@ namespace StarterAssets
 		{
 			sprint = newSprintState;
 		}
-		
+
 		private void OnApplicationFocus(bool hasFocus)
 		{
 			SetCursorState(cursorLocked);
