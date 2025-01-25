@@ -33,7 +33,7 @@ public class PlayerAnimator : MonoBehaviour
         handCannon.OnFire.AddListener(TriggerShoot);
         handCannon.OnCancel.AddListener(TriggerCancel);
         handCannon.OnTeleport.AddListener(TriggerTeleport);
-
+        handCannon.OnReload.AddListener(TriggerReload);
     }
 
     private void Update()

@@ -11,6 +11,7 @@ public class HandCannon : MonoBehaviour
     public UnityEvent OnFire;
     public UnityEvent OnTeleport;
     public UnityEvent OnCancel;
+    public UnityEvent OnReload;
     [Header("Firing options")]
     [SerializeField]
     private float eggTeleportTime;
@@ -111,6 +112,11 @@ public class HandCannon : MonoBehaviour
         OnCancel?.Invoke();
     }
 
+    public void Reload()
+    {
+        OnReload?.Invoke();
+    }
+
     public void SetCanShoot(bool canShoot)
     {
         this.canShoot = canShoot;
@@ -127,6 +133,8 @@ public class HandCannon : MonoBehaviour
         if (!initialTeleportFinished) {
             return;
         }
+
+        Reload();
 
         activeEgg.OnBreak -= OnEggBreak;
         Destroy(activeEgg.gameObject);
