@@ -93,12 +93,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  OnReload:
+    m_PersistentCalls:
+      m_Calls: []
   eggTeleportTime: 0.2
   activeEgg: {fileID: 0}
   eggPrefab: {fileID: -7684051323602327870, guid: f7a7bba2db60f4ee78dc79c68eae4003, type: 3}
   bulletForce: 15
   firePoint: {fileID: 19496968908087142}
   player: {fileID: 7620460534309501243}
+  firstPersonController: {fileID: 6365014829323111654}
+  arms: {fileID: 1510174630388758829}
 --- !u!114 &8061290118705545861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -929,6 +934,11 @@ PrefabInstance:
 --- !u!95 &115367739620342404 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 8930428174745613451, guid: 706445f0f508cae48824e564ebf76684, type: 3}
+  m_PrefabInstance: {fileID: 8824415638937538063}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &1510174630388758829 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 7963393929064675106, guid: 706445f0f508cae48824e564ebf76684, type: 3}
   m_PrefabInstance: {fileID: 8824415638937538063}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &4831232935555924816 stripped

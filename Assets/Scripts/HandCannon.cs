@@ -31,6 +31,8 @@ public class HandCannon : MonoBehaviour
     [Header("Input")]
     [SerializeField]
     private Player player;
+    [SerializeField]
+    private FirstPersonController firstPersonController;
 
     private bool canShoot = true;
 
@@ -61,6 +63,11 @@ public class HandCannon : MonoBehaviour
         if (!canShoot)
         {
             Debug.Log("Cant fire, canShoot is false");
+            return;
+        }
+
+        if (!firstPersonController.Grounded) {
+            Debug.Log("Cant fire, player is not grounded");
             return;
         }
 
