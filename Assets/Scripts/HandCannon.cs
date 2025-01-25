@@ -7,7 +7,9 @@ public class HandCannon : MonoBehaviour
 {
     [Header("Firing options")]
     [SerializeField]
+    private float eggTeleportTime;
     private float eggActivationTime = 1f;
+    
     [Header("Egg options")]
     [SerializeField]
     private Egg activeEgg;
@@ -51,6 +53,7 @@ public class HandCannon : MonoBehaviour
 
         activeEgg = Instantiate(eggPrefab, firePoint.position, firePoint.rotation);
         activeEgg.Launch(bulletForce);
+        eggActivationTime = Time.time;
         activeEgg.OnBreak += OnEggBreak;
     }
 
@@ -59,6 +62,12 @@ public class HandCannon : MonoBehaviour
         if (!activeEgg)
         {
             Debug.Log("Cant teleport, egg is not alive");
+            return;
+        }
+
+        if (Time.time - eggActivationTime < eggTeleportTime)
+        {
+            Debug.Log("Egg is not ready to teleport");
             return;
         }
 
