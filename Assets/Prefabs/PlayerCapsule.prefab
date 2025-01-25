@@ -685,11 +685,7 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
-<<<<<<< Updated upstream
---- !u!114 &6558990794042869458
-=======
 --- !u!114 &1242305289031851723
->>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -698,13 +694,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7003817557649108951}
   m_Enabled: 1
   m_EditorHideFlags: 0
-<<<<<<< Updated upstream
-  m_Script: {fileID: 11500000, guid: 6f1f2964fcd62da429017fb816715336, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-=======
   m_Script: {fileID: 11500000, guid: 8300c7189509842b9849d8fe58774bd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   handCannon: {fileID: 7051310882256765979}
->>>>>>> Stashed changes
