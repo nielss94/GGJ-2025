@@ -1,4 +1,5 @@
 using System;
+using DG.Tweening;
 using StarterAssets;
 using UnityEngine;
 using UnityEngine.Events;
@@ -31,6 +32,22 @@ public class HandCannon : MonoBehaviour
     private Player player;
 
     private bool canShoot = true;
+
+    [SerializeField] private SkinnedMeshRenderer arms;
+
+    private bool initialTeleportFinished = false;
+
+    private void Awake() {
+        arms.enabled = false;
+        player.GetComponent<CharacterController>().enabled = false;
+        if (!activeEgg) {
+            activeEgg = Instantiate(eggPrefab, firePoint.position + player.transform.forward.normalized * 2 + player.transform.up.normalized * 2, firePoint.rotation);
+            eggActivationTime = Time.time;
+            activeEgg.OnBreak += OnEggBreak;
+        } else {
+            activeEgg.OnBreak += OnEggBreak;
+        }
+    }
 
     public void Fire()
     {
@@ -74,8 +91,10 @@ public class HandCannon : MonoBehaviour
         }
 
         // initiate egg swap
+        initialTeleportFinished = true;
         activeEgg.Break(() => {
             player.TeleportPlayer(activeEgg.transform.position);
+            arms.enabled = true;
             OnTeleport?.Invoke();
         });
     }
@@ -102,6 +121,10 @@ public class HandCannon : MonoBehaviour
         if (!activeEgg)
         {
             Debug.Log("Cant break, egg is not alive");
+            return;
+        }
+
+        if (!initialTeleportFinished) {
             return;
         }
 

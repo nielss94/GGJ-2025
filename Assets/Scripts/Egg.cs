@@ -1,9 +1,11 @@
 using UnityEngine;
 using System;
 using UnityEngine.PlayerLoop;
+using UnityEngine.Events;
 
 public class Egg : MonoBehaviour
 {
+    public UnityEvent OnEggBreak;
     public event Action OnBreak;
 
     [SerializeField]
@@ -35,6 +37,7 @@ public class Egg : MonoBehaviour
         onBreak?.Invoke();
 
         OnBreak?.Invoke();
+        OnEggBreak?.Invoke();
         isBreaking = false;
         Events.EggSpeed(0f);
     }
