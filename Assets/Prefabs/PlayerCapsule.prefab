@@ -158,6 +158,9 @@ MonoBehaviour:
   OnFire:
     m_PersistentCalls:
       m_Calls: []
+  OnTeleport:
+    m_PersistentCalls:
+      m_Calls: []
   OnCancel:
     m_PersistentCalls:
       m_Calls: []
@@ -505,7 +508,7 @@ MonoBehaviour:
   Preload: 0
   NonRigidbodyVelocity: 0
   Params:
-  - Name: travelling
+  - Name: travelling_smooth
     Value: 0
   OverrideAttenuation: 0
   OverrideMinDistance: 1
@@ -832,7 +835,7 @@ MonoBehaviour:
   minWarpFOVIncrease: 50
   maxWarpDistance: 10
   minWarpDuration: 0.3
-  maxWarpDuration: 0.4
+  maxWarpDuration: 0.5
   rotateTowardsDestination: 1
   resetXRotation: 0
   travelingEmitter: {fileID: 851875345349209221}

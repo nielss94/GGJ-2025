@@ -8,6 +8,7 @@ using UnityEngine.PlayerLoop;
 public class HandCannon : MonoBehaviour
 {
     public UnityEvent OnFire;
+    public UnityEvent OnTeleport;
     public UnityEvent OnCancel;
     [Header("Firing options")]
     [SerializeField]
