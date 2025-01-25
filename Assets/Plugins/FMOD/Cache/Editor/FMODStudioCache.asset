@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6108181527815685683
+--- !u!114 &-352422429501844575
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15,38 +15,10 @@ MonoBehaviour:
   Path: Assets/Audio/SlijmAudio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-<<<<<<< HEAD
-  lastModified: 638734270234224954
-=======
-  lastModified: 638734229125167460
->>>>>>> 3053ffab7bf6da7e2cd0aa72c80eccb27193296e
+  lastModified: 638734278246751190
   FileSizes:
   - Name: Desktop
     Value: 26624
-  Exists: 1
---- !u!114 &-4607391731155825850
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Audio/SlijmAudio/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-<<<<<<< HEAD
-  lastModified: 638734270234235197
-=======
-  lastModified: 638734229125177560
->>>>>>> 3053ffab7bf6da7e2cd0aa72c80eccb27193296e
-  FileSizes:
-  - Name: Desktop
-    Value: 1014
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -61,75 +33,20 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -4607391731155825850}
-  - {fileID: -6108181527815685683}
-  - {fileID: 2207600331937187335}
+  - {fileID: 5076100743970695774}
+  - {fileID: 4612953624863625141}
+  - {fileID: -352422429501844575}
   EditorEvents:
-  - {fileID: 1973085496372896971}
-  - {fileID: 6843455139521576824}
+  - {fileID: 7280619418213913106}
+  - {fileID: 4601343667155923264}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -6108181527815685683}
+  - {fileID: -352422429501844575}
   StringsBanks:
-  - {fileID: -4607391731155825850}
-<<<<<<< HEAD
-  cacheTime: 638734270234605943
-=======
-  cacheTime: 638734229125177560
->>>>>>> 3053ffab7bf6da7e2cd0aa72c80eccb27193296e
+  - {fileID: 5076100743970695774}
+  cacheTime: 638734278246771481
   cacheVersion: 131622
---- !u!114 &1973085496372896971
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/event test
-  m_EditorClassIdentifier: 
-  Path: event:/event test
-  Guid:
-    Data1: -1960461453
-    Data2: 1289040617
-    Data3: 480656054
-    Data4: 1584504142
-  Banks:
-  - {fileID: -6108181527815685683}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &2207600331937187335
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Global.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Audio/SlijmAudio/Build/Desktop/Global.bank
-  Name: Global
-  StudioPath: bank:/New Folder/Global
-<<<<<<< HEAD
-  lastModified: 638734270234605943
-=======
-  lastModified: 638734229125142459
->>>>>>> 3053ffab7bf6da7e2cd0aa72c80eccb27193296e
-  FileSizes:
-  - Name: Desktop
-    Value: 5339232
-  Exists: 1
---- !u!114 &6639897170196783777
+--- !u!114 &3337247988028815954
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -155,7 +72,74 @@ MonoBehaviour:
   - No
   - Yes
   Exists: 1
---- !u!114 &6843455139521576824
+--- !u!114 &4601343667155923264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/event test
+  m_EditorClassIdentifier: 
+  Path: event:/event test
+  Guid:
+    Data1: -1960461453
+    Data2: 1289040617
+    Data3: 480656054
+    Data4: 1584504142
+  Banks:
+  - {fileID: -352422429501844575}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4612953624863625141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Global.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/SlijmAudio/Build/Desktop/Global.bank
+  Name: Global
+  StudioPath: bank:/New Folder/Global
+  lastModified: 638734278246745748
+  FileSizes:
+  - Name: Desktop
+    Value: 5339232
+  Exists: 1
+--- !u!114 &5076100743970695774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/SlijmAudio/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638734278246771481
+  FileSizes:
+  - Name: Desktop
+    Value: 1014
+  Exists: 1
+--- !u!114 &7280619418213913106
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -174,12 +158,12 @@ MonoBehaviour:
     Data3: 1778016915
     Data4: -1066719452
   Banks:
-  - {fileID: 2207600331937187335}
+  - {fileID: 4612953624863625141}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 6639897170196783777}
+  - {fileID: 3337247988028815954}
   MinDistance: 1
   MaxDistance: 20
   Length: 1300

@@ -5,6 +5,7 @@ using StarterAssets;
 
 public class Player : MonoBehaviour
 {
+
     [Header("Warp Effect Settings")]
     [SerializeField] private float maxWarpFOV = 130f;
     [SerializeField] private float minWarpFOVIncrease = 50f;
@@ -13,6 +14,8 @@ public class Player : MonoBehaviour
     [SerializeField] private float maxWarpDuration = 0.4f;
     [SerializeField] private bool rotateTowardsDestination = true;
     [SerializeField] private bool resetXRotation = true;
+
+    [SerializeField] private GGJ2025EventEmitter travelingEmitter;
     
     [Header("References")]
     [SerializeField] private Transform cameraRoot;
@@ -45,6 +48,7 @@ public class Player : MonoBehaviour
     }
 
     public void TeleportPlayer(Vector3 position) {
+        travelingEmitter.SetTraveling(1);
         var sequence = DOTween.Sequence();
         
         float originalFOV = mainCamera.fieldOfView;
@@ -86,6 +90,9 @@ public class Player : MonoBehaviour
             .AppendCallback(() => characterController.enabled = true)
             // Warp in effect
             .Append(mainCamera.DOFieldOfView(originalFOV, moveDuration * 0.5f).SetEase(Ease.OutExpo))
-            .AppendCallback(() => Events.Rebirth());
+            .AppendCallback(() => {
+                travelingEmitter.SetTraveling(0);
+                Events.Rebirth();
+            });
     }
 }
