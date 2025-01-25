@@ -120,6 +120,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3524438811208279652}
   - component: {fileID: 7051310882256765979}
+  - component: {fileID: 7368715241003224615}
   m_Layer: 0
   m_Name: HandCannon
   m_TagString: Untagged
@@ -154,12 +155,58 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 678cc55267ab349c097ea8190c307299, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnFire:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7368715241003224615}
+        m_TargetAssemblyTypeName: GGJ2025EventEmitter, Assembly-CSharp
+        m_MethodName: Trigger
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   eggTeleportTime: 0.2
   activeEgg: {fileID: 0}
   eggPrefab: {fileID: -7684051323602327870, guid: f7a7bba2db60f4ee78dc79c68eae4003, type: 3}
   bulletForce: 15
   firePoint: {fileID: 19496968908087142}
   player: {fileID: 7620460534309501243}
+--- !u!114 &7368715241003224615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301410025388662016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9513da8a162e44a79a75bd5089aa27cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1960461453
+      Data2: 1289040617
+      Data3: 480656054
+      Data4: 1584504142
+    Path: event:/event test
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &765049920100838120
 GameObject:
   m_ObjectHideFlags: 0
@@ -170,8 +217,11 @@ GameObject:
   m_Component:
   - component: {fileID: 8255114056175302688}
   - component: {fileID: 6362438814478882799}
-  - component: {fileID: 1205502502137306284}
   - component: {fileID: 8688279255344923553}
+  - component: {fileID: 6466422744095340152}
+  - component: {fileID: 1571196401079259633}
+  - component: {fileID: 7887069100417247407}
+  - component: {fileID: 6118663609864680279}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -247,14 +297,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &1205502502137306284
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 765049920100838120}
-  m_Enabled: 1
 --- !u!114 &8688279255344923553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -394,6 +436,87 @@ MonoBehaviour:
       enableFptlForForwardOpaque: 0
       enableBigTilePrepass: 0
       isFptlEnabled: 0
+--- !u!114 &6466422744095340152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765049920100838120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9468c5f457ace64f8d4df6d642b107f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LoadEvent: 1
+  UnloadEvent: 0
+  Banks:
+  - Global
+  CollisionTag: 
+  PreloadSamples: 0
+--- !u!114 &1571196401079259633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765049920100838120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nonRigidbodyVelocity: 0
+  attenuationObject: {fileID: 0}
+--- !u!114 &7887069100417247407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765049920100838120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9468c5f457ace64f8d4df6d642b107f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LoadEvent: 1
+  UnloadEvent: 2
+  Banks:
+  - Global
+  CollisionTag: 
+  PreloadSamples: 0
+--- !u!114 &6118663609864680279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765049920100838120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 708694178
+      Data2: 1200839966
+      Data3: 1778016915
+      Data4: -1066719452
+    Path: event:/tlbuizen
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1786660970723207443
 GameObject:
   m_ObjectHideFlags: 0
