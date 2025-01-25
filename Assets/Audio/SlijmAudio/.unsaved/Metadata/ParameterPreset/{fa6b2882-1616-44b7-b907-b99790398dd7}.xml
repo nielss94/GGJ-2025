@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{fa6b2882-1616-44b7-b907-b99790398dd7}">
+		<property name="name">
+			<value>travelling_smooth</value>
+		</property>
+		<relationship name="folder">
+			<destination>{d36f44b1-118a-4bf4-b7da-8e1c7f01d4bf}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{aabf551c-7260-43f4-b69a-431dacda728d}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{aabf551c-7260-43f4-b69a-431dacda728d}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

@@ -1,6 +1,10 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< HEAD
 --- !u!114 &-352422429501844575
+=======
+--- !u!114 &-8417744072210786074
+>>>>>>> origin/main
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,6 +14,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+<<<<<<< HEAD
   m_Name: bank:/Master.bank
   m_EditorClassIdentifier: 
   Path: Assets/Audio/SlijmAudio/Build/Desktop/Master.bank
@@ -19,6 +24,91 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 26624
+=======
+  m_Name: bank:/Global.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/SlijmAudio/Build/Desktop/Global.bank
+  Name: Global
+  StudioPath: bank:/New Folder/Global
+  lastModified: 638734283624084263
+  FileSizes:
+  - Name: Desktop
+    Value: 5339968
+  Exists: 1
+--- !u!114 &-8007924247726096249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/tlbuizen
+  m_EditorClassIdentifier: 
+  Path: event:/tlbuizen
+  Guid:
+    Data1: 708694178
+    Data2: 1200839966
+    Data3: 1778016915
+    Data4: -1066719452
+  Banks:
+  - {fileID: -8417744072210786074}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 2778488218011877728}
+  - {fileID: -7035352268924461094}
+  - {fileID: 8057776193583813824}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1300
+--- !u!114 &-7035352268924461094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/tlbuizen/Parameter 1
+  m_EditorClassIdentifier: 
+  Name: Parameter 1
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2291612716
+    data2: 2103674937
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-4481830486067907200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/SlijmAudio/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638734283623681006
+  FileSizes:
+  - Name: Desktop
+    Value: 1106
+>>>>>>> origin/main
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -33,6 +123,7 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
+<<<<<<< HEAD
   - {fileID: 5076100743970695774}
   - {fileID: 4612953624863625141}
   - {fileID: -352422429501844575}
@@ -47,6 +138,22 @@ MonoBehaviour:
   cacheTime: 638734278246771481
   cacheVersion: 131622
 --- !u!114 &3337247988028815954
+=======
+  - {fileID: -4481830486067907200}
+  - {fileID: -8417744072210786074}
+  - {fileID: 5936232175614387933}
+  EditorEvents:
+  - {fileID: -8007924247726096249}
+  - {fileID: 8781115919932482287}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 5936232175614387933}
+  StringsBanks:
+  - {fileID: -4481830486067907200}
+  cacheTime: 638734283624084263
+  cacheVersion: 131622
+--- !u!114 &2778488218011877728
+>>>>>>> origin/main
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -72,6 +179,7 @@ MonoBehaviour:
   - No
   - Yes
   Exists: 1
+<<<<<<< HEAD
 --- !u!114 &4601343667155923264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100,6 +208,9 @@ MonoBehaviour:
   MaxDistance: 20
   Length: 0
 --- !u!114 &4612953624863625141
+=======
+--- !u!114 &5936232175614387933
+>>>>>>> origin/main
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -109,6 +220,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+<<<<<<< HEAD
   m_Name: bank:/Global.bank
   m_EditorClassIdentifier: 
   Path: Assets/Audio/SlijmAudio/Build/Desktop/Global.bank
@@ -120,6 +232,19 @@ MonoBehaviour:
     Value: 5339232
   Exists: 1
 --- !u!114 &5076100743970695774
+=======
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/SlijmAudio/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638734283623660735
+  FileSizes:
+  - Name: Desktop
+    Value: 26624
+  Exists: 1
+--- !u!114 &8057776193583813824
+>>>>>>> origin/main
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -128,6 +253,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Master.strings.bank
   m_EditorClassIdentifier: 
@@ -140,6 +266,24 @@ MonoBehaviour:
     Value: 1014
   Exists: 1
 --- !u!114 &7280619418213913106
+=======
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/tlbuizen/travelling_smooth
+  m_EditorClassIdentifier: 
+  Name: travelling_smooth
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1573083675
+    data2: 1560492720
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &8781115919932482287
+>>>>>>> origin/main
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -149,21 +293,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/tlbuizen
+  m_Name: event:/event test
   m_EditorClassIdentifier: 
-  Path: event:/tlbuizen
+  Path: event:/event test
   Guid:
-    Data1: 708694178
-    Data2: 1200839966
-    Data3: 1778016915
-    Data4: -1066719452
+    Data1: -1960461453
+    Data2: 1289040617
+    Data3: 480656054
+    Data4: 1584504142
   Banks:
+<<<<<<< HEAD
   - {fileID: 4612953624863625141}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
   Parameters:
   - {fileID: 3337247988028815954}
+=======
+  - {fileID: 5936232175614387933}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+>>>>>>> origin/main
   MinDistance: 1
   MaxDistance: 20
-  Length: 1300
+  Length: 0
