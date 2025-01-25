@@ -76,7 +76,6 @@ public class HandCannon : MonoBehaviour
 
     public void Cancel()
     {
-        Debug.Log("Cancel");
         if (!activeEgg)
         {
             Debug.Log("Cant cancel, egg is not alive");
