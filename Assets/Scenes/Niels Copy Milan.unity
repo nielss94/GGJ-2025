@@ -1841,23 +1841,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1205502502137306284, guid: 956aa9c30817a4da196817481f0caf17, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 765049920100838120, guid: 956aa9c30817a4da196817481f0caf17, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2090228080}
-    - targetCorrespondingSourceObject: {fileID: 765049920100838120, guid: 956aa9c30817a4da196817481f0caf17, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2090228076}
-    - targetCorrespondingSourceObject: {fileID: 765049920100838120, guid: 956aa9c30817a4da196817481f0caf17, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2090228082}
-    - targetCorrespondingSourceObject: {fileID: 765049920100838120, guid: 956aa9c30817a4da196817481f0caf17, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2090228081}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 956aa9c30817a4da196817481f0caf17, type: 3}
 --- !u!1 &1898772527
 GameObject:
@@ -1908,92 +1895,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2090228074 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 765049920100838120, guid: 956aa9c30817a4da196817481f0caf17, type: 3}
-  m_PrefabInstance: {fileID: 1804649621}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2090228076
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2090228074}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nonRigidbodyVelocity: 0
-  attenuationObject: {fileID: 0}
---- !u!114 &2090228080
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2090228074}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9468c5f457ace64f8d4df6d642b107f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LoadEvent: 1
-  UnloadEvent: 0
-  Banks:
-  - Global
-  CollisionTag: 
-  PreloadSamples: 0
---- !u!114 &2090228081
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2090228074}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 708694178
-      Data2: 1200839966
-      Data3: 1778016915
-      Data4: -1066719452
-    Path: event:/tlbuizen
-  Event: 
-  EventPlayTrigger: 1
-  EventStopTrigger: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
---- !u!114 &2090228082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2090228074}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9468c5f457ace64f8d4df6d642b107f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LoadEvent: 1
-  UnloadEvent: 2
-  Banks:
-  - Global
-  CollisionTag: 
-  PreloadSamples: 0
 --- !u!4 &68455544761858269
 Transform:
   m_ObjectHideFlags: 0
