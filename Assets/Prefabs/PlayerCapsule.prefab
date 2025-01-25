@@ -154,13 +154,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 678cc55267ab349c097ea8190c307299, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eggActivationTime: 1
+  eggTeleportTime: 0
   activeEgg: {fileID: 0}
   eggPrefab: {fileID: -7684051323602327870, guid: f7a7bba2db60f4ee78dc79c68eae4003, type: 3}
   bulletForce: 25
   firePoint: {fileID: 19496968908087142}
   player: {fileID: 7003817557649108951}
-  input: {fileID: 6699542789568789294}
 --- !u!1 &765049920100838120
 GameObject:
   m_ObjectHideFlags: 0
@@ -472,6 +471,7 @@ GameObject:
   - component: {fileID: 3385360925019492203}
   - component: {fileID: 6699542789568789294}
   - component: {fileID: 1653961714365314504}
+  - component: {fileID: 6558990794042869458}
   m_Layer: 8
   m_Name: PlayerCapsule
   m_TagString: Player
@@ -684,3 +684,15 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &6558990794042869458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7003817557649108951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1f2964fcd62da429017fb816715336, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
