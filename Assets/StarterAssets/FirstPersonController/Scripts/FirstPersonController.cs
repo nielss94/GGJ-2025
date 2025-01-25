@@ -234,15 +234,34 @@ namespace StarterAssets
 				inputDirection = transform.right * _input.move.x + transform.forward * _input.move.y;
 			}
 
-			// Calculate final movement including platform velocity
-			Vector3 finalMovement = (inputDirection.normalized * (_speed * Time.deltaTime)) + 
-								  (new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime);
+			// Calculate player movement
+			Vector3 playerMovement = inputDirection.normalized * (_speed * Time.deltaTime);
+			Vector3 verticalMovement = new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime;
 
 			// Add platform velocity if we're on a moving platform
+			Vector3 platformMovement = Vector3.zero;
 			if (_currentPlatform != null)
 			{
-				finalMovement += _platformVelocity * Time.deltaTime;
+				platformMovement = _platformVelocity * Time.deltaTime;
+				
+				// Get the horizontal components of both movements
+				Vector3 horizontalPlatformMovement = new Vector3(platformMovement.x, 0, platformMovement.z);
+				Vector3 horizontalPlayerMovement = new Vector3(playerMovement.x, 0, playerMovement.z);
+				
+				// Calculate the combined horizontal movement
+				Vector3 combinedHorizontalMovement = horizontalPlatformMovement + horizontalPlayerMovement;
+				
+				// If the combined speed exceeds our target speed, scale down the player movement
+				float currentSpeed = combinedHorizontalMovement.magnitude / Time.deltaTime; // Convert back to velocity
+				if (currentSpeed > targetSpeed)
+				{
+					float scale = targetSpeed / currentSpeed;
+					playerMovement *= scale;
+				}
 			}
+
+			// Combine all movements
+			Vector3 finalMovement = playerMovement + verticalMovement + platformMovement;
 
 			// move the player
 			_controller.Move(finalMovement);
