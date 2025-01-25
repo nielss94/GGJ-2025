@@ -1,3 +1,4 @@
+using System;
 using StarterAssets;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -25,11 +26,19 @@ public class HandCannon : MonoBehaviour
     [SerializeField]
     private Player player;
 
+    private bool canShoot = true;
+
     public void Fire()
     {
         if (activeEgg)
         {
             Debug.Log("Cant fire, egg is already alive");
+            return;
+        }
+
+        if (!canShoot)
+        {
+            Debug.Log("Cant fire, canShoot is false");
             return;
         }
 
@@ -53,6 +62,12 @@ public class HandCannon : MonoBehaviour
             return;
         }
 
+        if (!activeEgg.CanRebirth)
+        {
+            Debug.Log("Egg is not ready to rebirth");
+            return;
+        }
+
         // initiate egg swap
         activeEgg.Break(() => {
             player.TeleportPlayer(activeEgg.transform.position);
@@ -61,7 +76,6 @@ public class HandCannon : MonoBehaviour
 
     public void Cancel()
     {
-        Debug.Log("Cancel");
         if (!activeEgg)
         {
             Debug.Log("Cant cancel, egg is not alive");
@@ -69,6 +83,11 @@ public class HandCannon : MonoBehaviour
         }
 
         activeEgg.Break();
+    }
+
+    public void SetCanShoot(bool canShoot)
+    {
+        this.canShoot = canShoot;
     }
 
     void OnEggBreak()
@@ -83,4 +102,5 @@ public class HandCannon : MonoBehaviour
         Destroy(activeEgg.gameObject);
         activeEgg = null;
     }
+
 }

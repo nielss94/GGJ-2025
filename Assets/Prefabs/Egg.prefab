@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1807515686883261292}
   - component: {fileID: 210015157328678024}
   - component: {fileID: -7684051323602327870}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Egg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118,9 +118,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4719444481910868984}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 2
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 10
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -149,3 +149,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 603bac145c91948419786d75e27057d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canRebirth: 1
+  breakSpeedThreshold: 0.5
+  minimumTimeBeforeSpeedCheck: 0.2

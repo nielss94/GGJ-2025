@@ -8,6 +8,10 @@ public class Killbox : MonoBehaviour
         {
             player.Die();
         }
+        if (other.TryGetComponent<Egg>(out Egg egg))
+        {
+            egg.Break();
+        }
     }
 
     private void OnDrawGizmos()
