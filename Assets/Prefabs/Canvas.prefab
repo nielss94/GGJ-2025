@@ -118,6 +118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactText: {fileID: 3669918127447891248}
+  loadingScreen: {fileID: 0}
 --- !u!1 &1640710996581911602
 GameObject:
   m_ObjectHideFlags: 0
@@ -424,8 +425,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.86300004}
   m_AnchorMax: {x: 0.14500001, y: 1}
-  m_AnchoredPosition: {x: 114.423584, y: -52.659668}
-  m_SizeDelta: {x: 166.84702, y: 43.39862}
+  m_AnchoredPosition: {x: 197.29858, y: -52.659668}
+  m_SizeDelta: {x: 332.5971, y: 43.3986}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7358065966202818867
 CanvasRenderer:
@@ -560,8 +561,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.86300004}
   m_AnchorMax: {x: 0.14500001, y: 1}
-  m_AnchoredPosition: {x: 114.42, y: -121}
-  m_SizeDelta: {x: 166.84702, y: 43.39862}
+  m_AnchoredPosition: {x: 213.04498, y: -121}
+  m_SizeDelta: {x: 364.0969, y: 43.3986}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8370668976308282404
 CanvasRenderer:
