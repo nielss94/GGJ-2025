@@ -34,6 +34,7 @@ public class Egg : MonoBehaviour
 
         OnBreak?.Invoke();
         isBreaking = false;
+        Events.EggSpeed(0f);
     }
 
     public void Launch(float bulletForce)
@@ -49,7 +50,7 @@ public class Egg : MonoBehaviour
     void Update()
     {
         if (rb == null || UIManager.Instance == null) return;
-        UIManager.Instance.SetEggVelocity(rb.linearVelocity.magnitude);
+        Events.EggSpeed(rb.linearVelocity.magnitude);
 
         aliveTime += Time.deltaTime;
 

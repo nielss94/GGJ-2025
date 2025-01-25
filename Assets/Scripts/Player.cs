@@ -30,5 +30,6 @@ public class Player : MonoBehaviour
         characterController.enabled = false;
         transform.position = position;
         characterController.enabled = true;
+        Events.Rebirth();
     }
 }
