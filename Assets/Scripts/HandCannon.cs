@@ -9,7 +9,7 @@ public class HandCannon : MonoBehaviour
     [SerializeField]
     private float eggTeleportTime;
     private float eggActivationTime = 1f;
-    
+
     [Header("Egg options")]
     [SerializeField]
     private Egg activeEgg;
@@ -25,29 +25,11 @@ public class HandCannon : MonoBehaviour
     [SerializeField]
     private GameObject player;
 
-    [Header("Input")]
-    [SerializeField]
-    private StarterAssetsInputs input;
-
-    void Awake()
-    {
-        input.OnFirePressed += OnFire;
-        input.OnCancelPressed += OnCancel;
-        input.OnTeleportPressed += OnTeleport;
-    }
-
-    void OnDestroy()
-    {
-        input.OnFirePressed -= OnFire;
-        input.OnCancelPressed -= OnCancel;
-        input.OnTeleportPressed -= OnTeleport;
-    }
-
-    void OnFire()
+    public void Fire()
     {
         if (activeEgg)
         {
-            Debug.Log("Egg is already alive");
+            Debug.Log("Cant fire, egg is already alive");
             return;
         }
 
@@ -57,7 +39,7 @@ public class HandCannon : MonoBehaviour
         activeEgg.OnBreak += OnEggBreak;
     }
 
-    void OnTeleport()
+    public void Teleport()
     {
         if (!activeEgg)
         {
@@ -79,8 +61,9 @@ public class HandCannon : MonoBehaviour
         });
     }
 
-    void OnCancel()
+    public void Cancel()
     {
+        Debug.Log("Cancel");
         if (!activeEgg)
         {
             Debug.Log("Cant cancel, egg is not alive");

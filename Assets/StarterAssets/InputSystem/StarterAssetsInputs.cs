@@ -51,6 +51,7 @@ namespace StarterAssets
 
 		public void OnFire(InputValue value)
 		{
+			Debug.Log("Fire pls");
 			OnFirePressed?.Invoke();
 		}
 

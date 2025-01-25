@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3932a6d3-351e-421c-9999-a1e5f2a968b0" name="Changes" comment="" />
+    <list default="true" id="3932a6d3-351e-421c-9999-a1e5f2a968b0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PlayerCapsule.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PlayerCapsule.prefab" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +24,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feature/hand-cannon" />
+                    <option name="lastUsedInstant" value="1737769990" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
                     <option name="lastUsedInstant" value="1737765481" />
@@ -116,7 +122,7 @@
       <option name="presentableId" value="Default" />
       <updated>1737737892734</updated>
       <workItem from="1737737894010" duration="2000" />
-      <workItem from="1737738427782" duration="697000" />
+      <workItem from="1737738427782" duration="1295000" />
     </task>
     <servers />
   </component>
