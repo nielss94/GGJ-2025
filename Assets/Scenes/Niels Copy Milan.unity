@@ -188,8 +188,6 @@ GameObject:
   - component: {fileID: 57683206}
   - component: {fileID: 57683205}
   - component: {fileID: 57683204}
-  - component: {fileID: 57683203}
-  - component: {fileID: 57683202}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -197,55 +195,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &57683202
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 57683201}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1960461453
-      Data2: 1289040617
-      Data3: 480656054
-      Data4: 1584504142
-    Path: event:/event test
-  Event: 
-  EventPlayTrigger: 1
-  EventStopTrigger: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
---- !u!114 &57683203
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 57683201}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9468c5f457ace64f8d4df6d642b107f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LoadEvent: 1
-  UnloadEvent: 2
-  Banks:
-  - Master
-  CollisionTag: 
-  PreloadSamples: 0
 --- !u!136 &57683204
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1899,7 +1848,16 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 765049920100838120, guid: 956aa9c30817a4da196817481f0caf17, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 2090228080}
+    - targetCorrespondingSourceObject: {fileID: 765049920100838120, guid: 956aa9c30817a4da196817481f0caf17, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 2090228076}
+    - targetCorrespondingSourceObject: {fileID: 765049920100838120, guid: 956aa9c30817a4da196817481f0caf17, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2090228082}
+    - targetCorrespondingSourceObject: {fileID: 765049920100838120, guid: 956aa9c30817a4da196817481f0caf17, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2090228081}
   m_SourcePrefab: {fileID: 100100000, guid: 956aa9c30817a4da196817481f0caf17, type: 3}
 --- !u!1 &1898772527
 GameObject:
@@ -1969,6 +1927,73 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nonRigidbodyVelocity: 0
   attenuationObject: {fileID: 0}
+--- !u!114 &2090228080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090228074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9468c5f457ace64f8d4df6d642b107f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LoadEvent: 1
+  UnloadEvent: 0
+  Banks:
+  - Global
+  CollisionTag: 
+  PreloadSamples: 0
+--- !u!114 &2090228081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090228074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 708694178
+      Data2: 1200839966
+      Data3: 1778016915
+      Data4: -1066719452
+    Path: event:/tlbuizen
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &2090228082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090228074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9468c5f457ace64f8d4df6d642b107f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LoadEvent: 1
+  UnloadEvent: 2
+  Banks:
+  - Global
+  CollisionTag: 
+  PreloadSamples: 0
 --- !u!4 &68455544761858269
 Transform:
   m_ObjectHideFlags: 0
