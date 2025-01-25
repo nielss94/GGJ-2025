@@ -6,6 +6,7 @@ public class LevelManager : MonoBehaviour
 {
     public event Action OnLevelComplete;
 
+    [SerializeField] private string NextLevelName;
     [SerializeField] private Player player;
 
     private List<Vector3> playerSpawnPositions = new List<Vector3>();
@@ -17,6 +18,7 @@ public class LevelManager : MonoBehaviour
 
     public void LevelComplete() {
         OnLevelComplete?.Invoke();
+        SceneManager.Instance.LoadLevel(NextLevelName);
     }
 
     public void RespawnPlayer()
