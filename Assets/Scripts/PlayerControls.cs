@@ -9,6 +9,10 @@ public class PlayerControls : MonoBehaviour
     [SerializeField]
     private HandCannon handCannon;
 
+    public void SetCanShoot(bool canShoot) {
+        handCannon.SetCanShoot(canShoot);
+    }
+
     void OnFire()
     {
         handCannon.Fire();
