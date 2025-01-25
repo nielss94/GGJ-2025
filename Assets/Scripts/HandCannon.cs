@@ -8,6 +8,8 @@ using UnityEngine.PlayerLoop;
 public class HandCannon : MonoBehaviour
 {
     public UnityEvent OnFire;
+    public UnityEvent OnTeleport;
+    public UnityEvent OnCancel;
     [Header("Firing options")]
     [SerializeField]
     private float eggTeleportTime;
@@ -74,6 +76,7 @@ public class HandCannon : MonoBehaviour
         // initiate egg swap
         activeEgg.Break(() => {
             player.TeleportPlayer(activeEgg.transform.position);
+            OnTeleport?.Invoke();
         });
     }
 
@@ -86,6 +89,7 @@ public class HandCannon : MonoBehaviour
         }
 
         activeEgg.Break();
+        OnCancel?.Invoke();
     }
 
     public void SetCanShoot(bool canShoot)
