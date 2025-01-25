@@ -263,8 +263,11 @@ namespace StarterAssets
 			// Combine all movements
 			Vector3 finalMovement = playerMovement + verticalMovement + platformMovement;
 
-			// move the player
-			_controller.Move(finalMovement);
+			// move the player if controller is enabled
+			if (_controller.enabled)
+			{
+				_controller.Move(finalMovement);
+			}
 		}
 
 		private void JumpAndGravity()
