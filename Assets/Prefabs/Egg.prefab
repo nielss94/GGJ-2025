@@ -31,14 +31,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4719444481910868984}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0.3413628, y: 1.5460228, z: 1.0177579}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3551573368938358797}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!33 &1873103917475034266
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -169,6 +169,10 @@ MonoBehaviour:
   canRebirth: 1
   breakSpeedThreshold: 0.5
   minimumTimeBeforeSpeedCheck: 0.2
+  breakAnimationDuration: 0.2
+  scaleIncrease: 4
+  scaleEase: 27
+  blendShapeEase: 7
 --- !u!114 &-8188999363079394510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -226,6 +230,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1897738726509484736}
     m_Modifications:
+    - target: {fileID: 1225528803284509464, guid: 4442b71f3bcad0942b86d2c5f9e075f9, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[0]'
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1225528803284509464, guid: 4442b71f3bcad0942b86d2c5f9e075f9, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[1]'
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1225528803284509464, guid: 4442b71f3bcad0942b86d2c5f9e075f9, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[2]'
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1225528803284509464, guid: 4442b71f3bcad0942b86d2c5f9e075f9, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[3]'
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 4842550325625479171, guid: 4442b71f3bcad0942b86d2c5f9e075f9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.54922
