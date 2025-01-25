@@ -41,7 +41,7 @@ public class SceneController : MonoBehaviour
         // Get loading screen reference from UIManager
         if (UIManager.Instance != null)
         {
-            loadingScreen = UIManager.Instance.GetLoadingScreen();
+            HandleUIManagerReady();
         }
     }
 
