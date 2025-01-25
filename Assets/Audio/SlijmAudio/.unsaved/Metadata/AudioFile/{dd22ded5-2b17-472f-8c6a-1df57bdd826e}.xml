@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{dd22ded5-2b17-472f-8c6a-1df57bdd826e}">
+		<property name="assetPath">
+			<value>eggbreak/bone_4.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.39183673469387753</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a07f1021-1e53-4b15-aa65-28f5967d30e5}</destination>
+		</relationship>
+	</object>
+</objects>

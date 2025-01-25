@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 1807515686883261292}
   - component: {fileID: 210015157328678024}
   - component: {fileID: -7684051323602327870}
+  - component: {fileID: -8188999363079394510}
+  - component: {fileID: 4031637920769429501}
   m_Layer: 7
   m_Name: Egg
   m_TagString: Untagged
@@ -149,9 +151,73 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 603bac145c91948419786d75e27057d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnEggBreak:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4031637920769429501}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   canRebirth: 1
   breakSpeedThreshold: 0.5
   minimumTimeBeforeSpeedCheck: 0.2
+--- !u!114 &-8188999363079394510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4719444481910868984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9468c5f457ace64f8d4df6d642b107f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LoadEvent: 0
+  UnloadEvent: 0
+  Banks:
+  - Egg
+  CollisionTag: 
+  PreloadSamples: 0
+--- !u!114 &4031637920769429501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4719444481910868984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -181143744
+      Data2: 1223665194
+      Data3: 1820599188
+      Data4: -1732288472
+    Path: event:/egg_being_canceled
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &8249900675116632078
 PrefabInstance:
   m_ObjectHideFlags: 0

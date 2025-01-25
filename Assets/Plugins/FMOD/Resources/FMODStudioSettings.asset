@@ -488,6 +488,7 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
+  - Egg
   - Global
   - player_sounds
   BanksToLoad: []
