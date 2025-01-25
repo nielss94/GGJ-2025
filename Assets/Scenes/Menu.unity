@@ -758,10 +758,6 @@ MonoBehaviour:
   m_Script: {fileID: 1642155417}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Entries:
-  - id: 0
-    category: 0
-    gameObject: {fileID: 4294633627045844918}
 --- !u!4 &1045504575
 Transform:
   m_ObjectHideFlags: 19
@@ -1104,7 +1100,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8760186335040422795, guid: d2421a8b227581643a52be3b8cf0e141, type: 3}
       propertyPath: debug
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8760186335040422795, guid: d2421a8b227581643a52be3b8cf0e141, type: 3}
       propertyPath: debugDelay
