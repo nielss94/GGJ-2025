@@ -79,7 +79,6 @@ public class Player : MonoBehaviour
             firstTeleportDuration : 
             minWarpDuration + (maxWarpDuration - minWarpDuration) * (distanceScale * distanceScale);
         
-        hasFirstTeleportOccurred = true;
         
         var moveSequence = DOTween.Sequence()
             .Join(transform.DOMove(position, moveDuration).SetEase(Ease.InOutQuint))
@@ -116,11 +115,15 @@ public class Player : MonoBehaviour
             .Append(mainCamera.DOFieldOfView(originalFOV, moveDuration * 0.5f).SetEase(Ease.OutExpo))
             .AppendCallback(() => {
                 Events.Rebirth();
+
+                hasFirstTeleportOccurred = true;
             }).OnUpdate(() => {
                 if (sequence.ElapsedPercentage() > 0.2f && sequence.ElapsedPercentage() < 0.6f) {
                         armsRenderer.enabled = false;
                     } else {
-                        armsRenderer.enabled = true;
+                        if (sequence.ElapsedPercentage() > 0.6f || (sequence.ElapsedPercentage() < 0.2f && hasFirstTeleportOccurred )) {
+                            armsRenderer.enabled = true;
+                        }
                     }
                 AudioManager.Instance.SetTraveling(sequence.ElapsedPercentage());
             });

@@ -30,6 +30,8 @@ public class EndDoor : MonoBehaviour
 
             sequence.AppendCallback(() => {
                 player.TeleportPlayer(endPoint.position - Vector3.up);
+                egg.transform.DOScale(Vector3.zero, 0.5f).SetEase(Ease.InBack);
+                egg.transform.DOMove(endPoint.position + Vector3.right * 2f, 0.5f).SetEase(Ease.InBack);
             });
         }
 
