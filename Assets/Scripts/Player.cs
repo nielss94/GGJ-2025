@@ -84,7 +84,7 @@ public class Player : MonoBehaviour
         
         // Spawn the gross puddle at the original position
         if (hasFirstTeleportOccurred) {
-            Instantiate(grossPuddle, transform.position, Quaternion.identity);
+            Instantiate(grossPuddle, transform.position, Quaternion.Euler(0, UnityEngine.Random.Range(0f, 360f), 0));
         }
         
         float warpFOV = Mathf.Lerp(originalFOV + minWarpFOVIncrease, maxWarpFOV, distanceScale);
