@@ -988,8 +988,8 @@ MonoBehaviour:
   musicVolume: {fileID: 3294259683589240216}
   sfxVolume: {fileID: 783017571467635428}
   dialogueVolume: {fileID: 3849409912078255243}
-  tpRotateHorizontal: {fileID: 0}
-  tpRotateVertical: {fileID: 0}
+  tpRotateHorizontal: {fileID: 3596834657023109609}
+  tpRotateVertical: {fileID: 3979991459525626500}
 --- !u!1 &1895432085869260858
 GameObject:
   m_ObjectHideFlags: 0
