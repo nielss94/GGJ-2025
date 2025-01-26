@@ -831,8 +831,8 @@ MonoBehaviour:
   maxWarpFOV: 130
   minWarpFOVIncrease: 50
   maxWarpDistance: 10
-  minWarpDuration: 0.3
-  maxWarpDuration: 0.8
+  minWarpDuration: 0.7
+  maxWarpDuration: 1.2
   firstTeleportDuration: 1
   rotateTowardsDestination: 1
   resetXRotation: 0
