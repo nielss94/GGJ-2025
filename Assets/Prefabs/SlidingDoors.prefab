@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 6d2db9960eb5f8343b15478684312383, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.634
+      value: -0.58906245
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d2db9960eb5f8343b15478684312383, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0000019073486
+      value: 0.0000015497208
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d2db9960eb5f8343b15478684312383, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.524
+      value: 6.3747196
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d2db9960eb5f8343b15478684312383, type: 3}
       propertyPath: m_LocalRotation.w
@@ -48,6 +48,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4499408885799781005, guid: 6d2db9960eb5f8343b15478684312383, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 214b7d25ad5a7434490f73d117ec836e, type: 2}
+    - target: {fileID: -554498556550026456, guid: 6d2db9960eb5f8343b15478684312383, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 214b7d25ad5a7434490f73d117ec836e, type: 2}
     - target: {fileID: 919132149155446097, guid: 6d2db9960eb5f8343b15478684312383, type: 3}
       propertyPath: m_Name
       value: SlidingDoors
@@ -118,7 +126,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -555457064195640871, guid: 6d2db9960eb5f8343b15478684312383, type: 3}
 --- !u!1 &8407216953712845947 stripped
@@ -145,7 +153,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 189721621674529281, guid: 6d2db9960eb5f8343b15478684312383, type: 3}
 --- !u!1 &8747912152007044870 stripped
