@@ -1,3 +1,4 @@
+using StarterAssets;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -8,6 +9,7 @@ public class OptionsMenu : MonoBehaviour
     [SerializeField] private Slider musicVolume;
     [SerializeField] private Slider sfxVolume;
     [SerializeField] private Slider dialogueVolume;
+    [SerializeField] private Slider mouseSensitivity;
     [SerializeField] private Toggle tpRotateHorizontal;
     [SerializeField] private Toggle tpRotateVertical;
 
@@ -16,7 +18,7 @@ public class OptionsMenu : MonoBehaviour
         musicVolume.value = AudioManager.Instance.MusicVolume;
         sfxVolume.value = AudioManager.Instance.SfxVolume;
         dialogueVolume.value = AudioManager.Instance.DialogueVolume;
-
+        mouseSensitivity.value = PlayerPrefs.GetFloat("mouseSensitivity", 2);
         tpRotateHorizontal.isOn = PlayerPrefs.GetInt("tpRotateHorizontal", 1) == 1;
         tpRotateVertical.isOn = PlayerPrefs.GetInt("tpRotateVertical", 0) == 1;
     }
@@ -39,6 +41,14 @@ public class OptionsMenu : MonoBehaviour
 
     public void DialogueVolumeChanged(float value) {
         AudioManager.Instance.SetDialogueVolume(value);
+    }
+
+    public void MouseSensitivityChanged(float value) {
+        PlayerPrefs.SetFloat("mouseSensitivity", value);
+
+        if (FindFirstObjectByType<FirstPersonController>() != null) {
+            FindFirstObjectByType<FirstPersonController>().RotationSpeed = value;
+        }
     }
 
     public void TPRotateHorizontalChanged() {

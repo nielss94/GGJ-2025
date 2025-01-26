@@ -114,6 +114,8 @@ namespace StarterAssets
 			// reset our timeouts on start
 			_jumpTimeoutDelta = JumpTimeout;
 			_fallTimeoutDelta = FallTimeout;
+
+			RotationSpeed = PlayerPrefs.GetFloat("mouseSensitivity", RotationSpeed);
 		}
 
 		private void Update()
