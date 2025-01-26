@@ -24,13 +24,13 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M_Bood_Simple_Splash_2x2_A
-  m_Shader: {fileID: -6465566751694194690, guid: 01ffc7abefe81554a941eb5953efa58f,
-    type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 01ffc7abefe81554a941eb5953efa58f, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _ALPHATEST_ON
   - _DISABLE_SSR_TRANSPARENT
+  - _MATERIAL_FEATURE_SPECULAR_COLOR
   m_InvalidKeywords: []
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
@@ -140,14 +140,18 @@ Material:
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 2
     - _DstBlend: 0
+    - _DstBlend2: 0
     - _EdgeMin: 0.05
     - _EdgeSoft: 0.05
     - _EnableBlendModePreserveSpecularLighting: 0
     - _EnableFogOnTransparent: 0
+    - _ExcludeFromTUAndAA: 0
     - _Glossiness: 0.5
     - _HighSharp: 1
     - _InvFade: 8
     - _InvertNdotL: 1
+    - _MaterialID: 4
+    - _MaterialTypeMask: 16
     - _Metallic: 0
     - _Metallic_intensity: 0
     - _NormalStr: 5
@@ -156,6 +160,7 @@ Material:
     - _OffTile: 1.31
     - _OpaqueCullMode: 2
     - _Overbright: 0
+    - _PerPixelSorting: 0
     - _RampAffect: 0.5
     - _RampTile: 3.4
     - _RayTracing: 0
@@ -180,6 +185,7 @@ Material:
     - _StencilWriteMaskMV: 41
     - _SupportDecals: 1
     - _SurfaceType: 0
+    - _TransmissionEnable: 1
     - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 2
     - _TransparentDepthPostpassEnable: 0
@@ -198,9 +204,10 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Emissive_Color: {r: 2.9960787, g: 0, b: 0, a: 1}
+    - _Emissive_Color: {r: 0.21292816, g: 0.01707443, b: 0.01707443, a: 1}
     - _HighlightColor: {r: 0.88235295, g: 0.88235295, b: 0.88235295, a: 1}
     - _LightDir: {r: 0.66176474, g: 0.5352509, b: 0.5352509, a: 0}
     - _Specular_Color: {r: 0, g: 0, b: 0, a: 0}
     - _TintColor: {r: 1, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
