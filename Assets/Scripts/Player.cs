@@ -32,13 +32,11 @@ public class Player : MonoBehaviour
         characterController = GetComponent<CharacterController>();
         mainCamera = Camera.main;
         firstPersonController = GetComponent<FirstPersonController>();
+    }
 
-        if (PlayerPrefs.GetInt("tpRotateHorizontal", 1) == 1) {
-            rotateTowardsDestination = true;
-        }
-        if (PlayerPrefs.GetInt("tpRotateVertical", 0) == 1) {
-            resetXRotation = true;
-        }
+    void Start() {
+        rotateTowardsDestination = PlayerPrefs.GetInt("tpRotateHorizontal", 1) == 1;
+        resetXRotation = PlayerPrefs.GetInt("tpRotateVertical", 0) == 1;
     }
 
     public void Die()
