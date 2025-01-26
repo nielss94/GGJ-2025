@@ -69,8 +69,8 @@ public class Player : MonoBehaviour
     public void EnableControlsIfFirstTeleportOccurred() {
         if (hasFirstTeleportOccurred) {
             characterController.enabled = true;
-            firstPersonController.enabled = true;
         }
+        firstPersonController.enabled = true;
     }
 
     public void TeleportPlayer(Vector3 position) {

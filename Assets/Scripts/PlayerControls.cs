@@ -16,6 +16,11 @@ public class PlayerControls : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
+        Debug.Log("PlayerControls Awake");
+    }
+
+    void Start() {
+        
         UIManager.Instance.OnPauseMenuToggled += OnPauseMenuToggled;
     }
 
@@ -25,12 +30,18 @@ public class PlayerControls : MonoBehaviour
 
     private void OnPauseMenuToggled(bool isActive)
     {
+        Debug.Log("OnPauseMenuToggled: " + isActive);
         if (isActive) {
+            Debug.Log("Disabling controls");
             GetComponent<Player>().DisableControls();
             controlsEnabled = false;
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
         } else {
             GetComponent<Player>().EnableControlsIfFirstTeleportOccurred();
             controlsEnabled = true;
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
         }
     }
 

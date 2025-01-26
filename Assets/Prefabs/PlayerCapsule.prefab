@@ -839,7 +839,7 @@ MonoBehaviour:
   characterController: {fileID: 267914167060462133}
   handCannon: {fileID: 7051310882256765979}
   player: {fileID: 7620460534309501243}
-  reloadAnimator: {fileID: 0}
+  reloadAnimator: {fileID: 5554958037546060003}
   moveSpeedParamName: moveSpeed
   shootParamName: shoot
   cancelParamName: cancel
@@ -899,7 +899,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6159368820653640687, guid: 732a8d042bbe89d4183019665dfa5f74, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7139939056651752950, guid: 732a8d042bbe89d4183019665dfa5f74, type: 3}
       propertyPath: m_Intensity
@@ -913,6 +913,11 @@ PrefabInstance:
 --- !u!4 &221355426715178059 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6123160754523626616, guid: 732a8d042bbe89d4183019665dfa5f74, type: 3}
+  m_PrefabInstance: {fileID: 6335368225891076147}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &5554958037546060003 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1944590984418066640, guid: 732a8d042bbe89d4183019665dfa5f74, type: 3}
   m_PrefabInstance: {fileID: 6335368225891076147}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8824415638937538063
