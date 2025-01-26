@@ -190,6 +190,7 @@ MonoBehaviour:
   scaleEase: 27
   blendShapeEase: 7
   highVelocityThreshold: 3
+  eggSplatter: {fileID: 5747601293108609112, guid: 025f1479c994adf42a7437b9fdca87f6, type: 3}
 --- !u!114 &-8188999363079394510
 MonoBehaviour:
   m_ObjectHideFlags: 0
