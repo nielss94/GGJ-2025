@@ -75,7 +75,6 @@ public class Egg : MonoBehaviour
 
     public void Break()
     {
-        if (isBreaking) return;
         isBreaking = true;
         OnEggBreak?.Invoke();
         OnBreak?.Invoke();
@@ -191,7 +190,6 @@ public class Egg : MonoBehaviour
 
         if (rb.linearVelocity.magnitude < breakSpeedThreshold && !isBreaking && aliveTime > minimumTimeBeforeSpeedCheck && inRebirthFreeZone)
         {
-            isBreaking = true;
             Break();
         }
     }
