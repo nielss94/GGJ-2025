@@ -1,0 +1,5660 @@
+fileFormatVersion: 2
+guid: b7c9015ff7982504ea219c576eaeed37
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kbm_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 990
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3b5db593e542745a69a6c7e3c7c1b8
+      internalID: -1162090479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 990
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35ac24e3948cd343adb3dc8563a4e92
+      internalID: -1209188926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 990
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6bdef365acb35e47b393197ee95f992
+      internalID: 705931595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 990
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416cc117bbb55ad4fb16d2e911b9f485
+      internalID: -1719242995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 990
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8c4b15c1e8c4f4c87296d19d8b83f6
+      internalID: 2008523288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 990
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c05c8779ec1cdd458a6f5c30e70e17b
+      internalID: 443646636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 990
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b79411da1fe494eaf74eaab705a01e
+      internalID: -1877176064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 990
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0e6d5f3d3d8524baf8eec8b4039947
+      internalID: 1216128986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 990
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f64eeb8a356a3429d0dcb313f0718e
+      internalID: 411125331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 990
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8262841ae0f7e4e4fa6ebb256388e849
+      internalID: 1367917275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 990
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376382e882b6b984bb070153b5dca598
+      internalID: 901934067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 990
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fcd85e5cfec4c40976c6fb031381b1
+      internalID: 548540833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 990
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2811f3f6af575342898f902ebade3e7
+      internalID: -1046590311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 990
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d36146eb4c69d5438dc3571f0dc0c55
+      internalID: 477718344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 990
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396ae2b18586a964aa0945e8749eded8
+      internalID: 686826226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 990
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fe8a2694f168f45a873c1fdbe1fb9e
+      internalID: 1895365065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 924
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ecccfe28f207147b46400239a79276
+      internalID: 865236455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 924
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89ac81f9072367489aea14398bc876d
+      internalID: -560002180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 924
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be5e7741fed44c4aba7067b277b806a
+      internalID: -828552163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 924
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9941e8f6a3f3ca04287f286ef7c23f8a
+      internalID: -544558014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 924
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a5fff8bffd70c40a09d7fef20340c5
+      internalID: -1177977315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 924
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d8830acee4ac341b4aa33bcfad5c16
+      internalID: -1327676839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 924
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4538be8683d37ea4180599d57ad8fc7c
+      internalID: -207500210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 924
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6daa6fb5f5e2b37419356aded9e6b30c
+      internalID: 49042289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 924
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34351b651e3dfc8438d3815f26a72e27
+      internalID: -1222755701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 924
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3954b497bded6941b74bb78da6cf589
+      internalID: 1629869917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 924
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc091a2cac76e50448d37ad1c46af8ec
+      internalID: -147679823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 924
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9278f030b4a4474dae9a161a36fbdfe
+      internalID: 142731522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 924
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f421cbaad48059b498e9adb80df06cc6
+      internalID: 442491811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 924
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc89edcc73a48142a81da438512b71b
+      internalID: 1304350438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 924
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679be6f9067afc14f9d620076f0c22b9
+      internalID: 942713267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 924
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbf4721c86444d41b4b517f61537d6b
+      internalID: -1409065544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 858
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa59bc9ad2331544d9a7f02779084a5c
+      internalID: 415272785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 858
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1de0b6816d9034a858c42b983fb410
+      internalID: -1358052348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 858
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8713c715ee3358048b2af92142bdcd46
+      internalID: 1233252650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 858
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f99fceb81a870346ba315f4c7deb340
+      internalID: -56449830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 858
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b675d2d8888386429ddcacc1012600e
+      internalID: -576472215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 858
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d890c46f332a447afc9689cfdee5d7
+      internalID: 1524611992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 858
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf87bcbca4d9b64595b4c39e16ae6d6
+      internalID: 181138452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 858
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2c0381d2f3e284aa5783da6c0100ba
+      internalID: -1034899668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 858
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a89ca105c6b174c990ef88932c0b53
+      internalID: 1456389922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 858
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a80c4ab08fdbc43a949b5d2b5103da
+      internalID: 1673514007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 858
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae28467f2a3c894a9d2f87e1a0aab7d
+      internalID: 588506089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 858
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d901e5ac1ed8e844086f83354622d5e7
+      internalID: -2027478084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 858
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb7b3acf81d21b44a378878660856e6
+      internalID: -1619649637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 858
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b471cbeb8eaf5478ffd5b06c62abc0
+      internalID: -722432675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 858
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f535663d109404c80eab5fec66be68
+      internalID: 723297439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 858
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f1575b082a8b448a28c73dec95e132
+      internalID: -789483795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 792
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973a15759d516844583f5a284f1725b0
+      internalID: 145694273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 792
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb1727d451722a4db649f6edd57cfb4
+      internalID: 503448605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 792
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b2adc326a3da14882925b8eb5409cc
+      internalID: 1344884644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 792
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d86e6bd13c68a4ebb8a81e6b6c9139
+      internalID: -617906959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 792
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906a3f8de9269a147bfda9d618bb7f71
+      internalID: 1124631289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 792
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2807b573a7242914392c0a8a69e05fda
+      internalID: 1788657217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 792
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da1bf9dc731c8b4e8b6355d9d61870a
+      internalID: 1599732446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 792
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69baf302ddae7074ca6bbe1f45a7b04e
+      internalID: -1239480293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 792
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5920972d2675f55459d188bb7f4347af
+      internalID: 1078288685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 792
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58870a3eebe66334e87bf8e7f2098836
+      internalID: 722267254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 792
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283252cbd4e7b3846be47e5bb7ffe624
+      internalID: 493904066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 792
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688b4c6506daf3e43af5daa88a910056
+      internalID: -1129980711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 792
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08977aae612d87f43aee0fc4f760a40c
+      internalID: 229286886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 792
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f3f3bb8e56f3943bb6ede400771aaf
+      internalID: -1337548625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 792
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3422395cb16690a4e8201693af4efc01
+      internalID: 1689635232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 792
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331886bf4ac4dfd49bc575d1753f0116
+      internalID: 1510006529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 726
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2c32eaa060d724984da550dca09871
+      internalID: -335901447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 726
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d582938dc1082bf4487346f4ce6ca4a8
+      internalID: -716097587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 726
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b679db9f17a94c4db6c2aced196a0c6
+      internalID: 1697997939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 726
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ecc653b12e84c54bb0e9efb1100347e
+      internalID: 2052896810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 726
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a828dcd0489b2c4fbe1f5415b3bec46
+      internalID: -947132192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 726
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0450b205b9beff04cbaebc1e77035168
+      internalID: -1253707216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 726
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d03373141c08943badeddfb7f2571b
+      internalID: -2061200705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 726
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adaf2bfc8d37ac845af8245b69c760e9
+      internalID: 1762380205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 726
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297a3f162187c144c91006c8ffcbde67
+      internalID: 1399333451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 726
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a36c3d9c4791964a9752471ee5dceb4
+      internalID: 51243391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 726
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658f7cf63f3564d47bd20c1c99a06233
+      internalID: -360683905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 726
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c5cb351b596bd4db30824f39823387
+      internalID: 1164663702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 726
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c8d0239e1924f4f815307fbacebec2
+      internalID: -1256641079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 726
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405a8083bc7f6fe4189e5153c4c603fe
+      internalID: -1094718202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 726
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b10f7957e922d43a18f8c759c317ff
+      internalID: -373106680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 726
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e44ed2e2da5464f81caa9f5c0a3e05
+      internalID: -1493720273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 660
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709379fc30fb1b549a31f8354f215b7f
+      internalID: 1596814441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 660
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38268c68db43ec74f91a17955ac460cc
+      internalID: 1196340684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 660
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d53a4f22730424eb1525b252d4c9a7
+      internalID: -527257256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 660
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4e019a04f1c7346b55ffcc65498bf1
+      internalID: -867195442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 660
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b054925f07343ed49beee2985c3e489a
+      internalID: -1031154169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 660
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9211cf405b3398e47a8245d6509a52f6
+      internalID: -2072756258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 660
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84768ed3530b57743807cf69472fd3af
+      internalID: 321111750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 660
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f33923e7b504446a37fa7fd6b22a78
+      internalID: -1554082214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 660
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32055e1401834e48917f2cb686eefde
+      internalID: -732239311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 660
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8a686489caf3e4f9c357db5a51015b
+      internalID: 996946333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 660
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a9132d311417a48b2f5dbd16404543
+      internalID: 173808689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 660
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94a111074258a84eaa21ea4ce2fb716
+      internalID: -1833878303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 660
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746e36903a0204943b0d4d558ea46a3f
+      internalID: -278930553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 660
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba576ff60bfc2045a227206abbcd884
+      internalID: 1656731685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 660
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd8bcf6f84acb74db0547827863fc09
+      internalID: -652517490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 660
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f412702d188769942a14704cf4bc3e0c
+      internalID: 1022001943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 594
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d35b90148d48f43817dbacf61b0f79
+      internalID: 1585363205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 594
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6d7e9ac2b9028478a2e7ea1ef59833
+      internalID: 70641290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 594
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1082aabc718fe45449106a17a08a82e3
+      internalID: -926767484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_99
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 594
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d8df42b87d2ee4eb8edd70549da725
+      internalID: 900105298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_100
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 594
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa8041b207dd7444929c06538f839fb
+      internalID: -329585902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_101
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 594
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e34890d11402194db5bad068cb65b6d
+      internalID: 606913864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_102
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 594
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76657bacac5de64fb08cae121a24fc8
+      internalID: -1161973404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_103
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 594
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25bf7e21f8df98043adeee996fb3e546
+      internalID: -113881428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_104
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 594
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d88e06e0c32dcb4885248651e4bf9b6
+      internalID: -1531965648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_105
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 594
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7cf8656674272741a95ccc6263dec67
+      internalID: 1134876344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_106
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 594
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe2a4be9f20a664eae3790962a963a7
+      internalID: 945028789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_107
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 594
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e512bb50f6e9f44b013af748afc9af
+      internalID: -641713014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_108
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 594
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a7723aba5d73a44814d154d7dd6f7c
+      internalID: 279810056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_109
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 594
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a551fab734179474da35aa35a7c89415
+      internalID: -371385718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_110
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 594
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9991471feaaaf6a41b872d44fe327e90
+      internalID: 653895593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_111
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 594
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806ec4475e202094eaabec41801a102a
+      internalID: -1106160685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_112
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 528
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8050e3fae1f869b4d88500e5e0254c7c
+      internalID: 626657369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_113
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 528
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb8e764270795544a1e04448175797f
+      internalID: -73101683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_114
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 528
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ff1de1d287ab34eb6982616c392321
+      internalID: 1554028049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_115
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 528
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cdb44d0c61cb6544be93478fbf97e94
+      internalID: -1057805953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_116
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 528
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd296d37e22446441847dc397099843a
+      internalID: -1025875624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_117
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 528
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d03584a6f9eb0409dc43f30c5c1dec
+      internalID: -791994335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_118
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 528
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0429f81d77473ed4bae42185c3158f4f
+      internalID: 185626204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_119
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 528
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adddb3d8115eb1740ac1483ffdc24e1c
+      internalID: 1155167236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_120
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 528
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0018b7b8a4de9d247932b7095e2602df
+      internalID: 1026040372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_121
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 528
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f387d7e70438444994c326c9fdfd552
+      internalID: -275629697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_122
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 528
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de706541a836a7409ed919b456a6de7
+      internalID: -1174195084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_123
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 528
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c824afb728fd4488c5aa5e12f18286
+      internalID: 1183562160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_124
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 528
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064a71a3096bdc8448edf5ce382a274b
+      internalID: -1740424409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_125
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 528
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0fb472beca90074ba3eb556c1b860d2
+      internalID: 1854862086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_126
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 528
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f841f21e6adad8144a2142e72cb39050
+      internalID: -577482237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_127
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 528
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046d27f222d85654b8c994be63a0921e
+      internalID: 999806987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_128
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 462
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f32544a3252a3f48beb9990409f1bd4
+      internalID: 1190450697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_129
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 462
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5dee79a4c64c84dbf4f387cd32b774
+      internalID: 279067763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_130
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 462
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9cedb53645a1e42a9e9f40b5aac1f5
+      internalID: -997999485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_131
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 462
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c387fdc0b1e77640b7b5ff4b0536947
+      internalID: 1608728481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_132
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 462
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0020b2953fbd60d479f9848b5c6ea527
+      internalID: -1382476923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_133
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 462
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e97b10fc76f82d4ba04230f5daaa3b9
+      internalID: 2032153432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_134
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 462
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca235bd52b70f0f4e9bb7ec60489b153
+      internalID: -1847029432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_135
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 462
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2aa8b17841f1334fb6459252c016db0
+      internalID: 1024730312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_136
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 462
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d762bc496424954eb078e8a2418bae9
+      internalID: 1009057814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_137
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 462
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b038ee8019dadc946986265f0d404a97
+      internalID: 882733440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_138
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 462
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a11315474b70a49b8e9ba7394082d3
+      internalID: 2062481767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_139
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 462
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b94b464ef42e0479206f54068f88d3
+      internalID: -434419875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_140
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 462
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9f25b2a0169d24f960fce880e98f7b
+      internalID: 1518818702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_141
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 462
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d26dc696372d34c803c42332181e4b
+      internalID: -1682090580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_142
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 462
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925e90f3042e06440992c938a156ab98
+      internalID: 1189048663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_143
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 462
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a92a921d4621de49b36bbdf86a13713
+      internalID: 1611276069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_144
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 396
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03044c6d141701a4b8e77a4238e043ca
+      internalID: 190977149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_145
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 396
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cb0588009555748a6fe331397552dd
+      internalID: 447736418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_146
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 396
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7b351ea84ac7b489527653c852ae8e
+      internalID: 834174038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_147
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 396
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7df4cf5d7fc9424099f519f83709bac
+      internalID: 417152561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_148
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 396
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e8518123b91b04998af3a01f9ede11
+      internalID: 233306906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_149
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 396
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f927974caa52f6c428bead4343f8fa4b
+      internalID: -849191153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_150
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 396
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84d4a169789989468663f2903d5ac10
+      internalID: 1914502446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_151
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 396
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1ac7b06840a694dae98d5ef76c0475
+      internalID: -1711840399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_152
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 396
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c93e67c439107841bb5ffd75222f608
+      internalID: -1785486811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_153
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 396
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027f98abe9d61364eb6f00b457089804
+      internalID: 981367501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_154
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 396
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36887598c8b5f940a08fd8db35596fd
+      internalID: -861847902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_155
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 396
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8115cef489fa11f4491b11244a6fd3e5
+      internalID: 2082795904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_156
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 396
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866a618bf27021848a909be03356a929
+      internalID: 1005696580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_157
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 396
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2414c8576e06f4747ba1dc0c9481ef63
+      internalID: -706608330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_158
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 396
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3295935a85c994195363cda5206dc6
+      internalID: 433076250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_159
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 396
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b37ee946e47474eb2d456f878d4084
+      internalID: -1435275254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_160
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 330
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed34ecf049847684ea1186488ddf01c3
+      internalID: 1824567020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_161
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 330
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55cb299e457cec34d8480bd22f84252d
+      internalID: 999444142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_162
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 330
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c782a62860fdb44185a5d6f158aeb82
+      internalID: 1572200100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_163
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 330
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59405fe8725c9064cae8256ae963b7ce
+      internalID: -1371148172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_164
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 330
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d0e3e0cd195fe4c80a4e9de20a19af
+      internalID: -902083508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_165
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 330
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c623a0670f56af3429320be519f9b51d
+      internalID: 615095719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_166
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 330
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9055db18cf86da4ca7d8b1f20a1798c
+      internalID: 225148053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_167
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 330
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce711e23a2edc64caf42aecea507c39
+      internalID: 1023029685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_168
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 330
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4511a45196c78904bbea58177dc9542c
+      internalID: -652577251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_169
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 330
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2694db1f1b3e4a646871ab1f5ae1fc41
+      internalID: -1895143152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_170
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 330
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a745d02df906541b88580aabd80f52
+      internalID: 1870371022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_171
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 330
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e26d22e1d05e964698f1a29703af561
+      internalID: 1626248614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_172
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 330
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6165c5d2e939c7f4b995526e11e9878e
+      internalID: 128820174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_173
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 330
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b280a8e0f88b44aa0d3ace183a402c
+      internalID: 5771928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_174
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 330
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61fffd624ba24174b8d3c55f425692ac
+      internalID: -1912635471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_175
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 330
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef88aff15932a24cbce0b86c382bb2c
+      internalID: 1263982658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_176
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 264
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faaa7cba734e38b4c84fb7a05c932f68
+      internalID: 564463853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_177
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 264
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a915f8459fc9dd4c8d3c7ca3eca1627
+      internalID: -1701744210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_178
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 264
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca42ee8c6db70140ad16ff7b3b64455
+      internalID: 167769943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_179
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 264
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da9210ff95fe5e4287d61e680d2d9d1
+      internalID: -951301012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_180
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 264
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f200abf93b7fb224281a48e4a79a48c8
+      internalID: -659607280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_181
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 264
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e03980376c5ff4fadc154520b63154
+      internalID: 1821742955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_182
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 264
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441d9c56e2db2fb4e938547a432d4173
+      internalID: 1128158632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_183
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 264
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c39ad1a04ebca54aadff0d18802c63a
+      internalID: -2142822742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_184
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 264
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82ce31dd46e4cb40a38dc6140022dd4
+      internalID: -1964468064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_185
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 264
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98cf9fc3fb01b9f46a7673ee6f0c1e6c
+      internalID: -96626846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_186
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 264
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f999f2a14da2f4bb400f86067183c3
+      internalID: -1218861018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_187
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 264
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992faf10a0c6b594d8bc27e6d4422d19
+      internalID: -1408951301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_188
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 264
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1966495d619874b8dccd38edaf32b1
+      internalID: -1778879497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_189
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 264
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4105700b47cd83f4ca5047d817296371
+      internalID: 61254173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_190
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 264
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbd767443cd2b94d89a448e19dfd781
+      internalID: 303811304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_191
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 264
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4e0738add801049bfed5d8c7576ac9
+      internalID: 846622666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_192
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 198
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614beadb97282cc42aa82b10ea2094c1
+      internalID: -845485717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_193
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 198
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315a22b20d7569644be16fb166821ee2
+      internalID: -845461531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_194
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 198
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ff34a3da06f8d4db7aa93fc6a506bf
+      internalID: -954722282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_195
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 198
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596c031f816df254aa27e92320f9786f
+      internalID: 437263953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_196
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 198
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8639509d3bbc2e45bf8023d1b38d863
+      internalID: -2090299060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_197
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 198
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1699115830db14b97b2e49d458bdaa
+      internalID: -1349620544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_198
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 198
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebe6e76db8d43941b256ef573a95cc8
+      internalID: 1466776730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_199
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 198
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588bb286d94076b46bf2ba7deae3496e
+      internalID: 1679667324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_200
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 198
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a302129cb0b55c4b84ae5f2c131e26b
+      internalID: 1116960541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_201
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 198
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d10d5430f63be46b937872c4e2689c
+      internalID: 2016007365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_202
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 198
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069be4e65427ede459e790231e0c617e
+      internalID: 358654725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_203
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 198
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fad958accffd446af70e2b9c15652e
+      internalID: -1316979760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_204
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 198
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0bf1b730c1977044b38a2ab2b796aa5
+      internalID: 1797690181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_205
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 198
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c4f69031e0fc749b592c95ac8d2e06
+      internalID: 1179596084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_206
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 198
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b462e04a3b13ca44fb8181d097adc271
+      internalID: 1445841198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_207
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 198
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399a63b01f5c022408b598eeb7fee7b7
+      internalID: -616789235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_208
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 132
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077e64e2941130e46bcd07bf66673051
+      internalID: 564581521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_209
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 132
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960c39baff9c2004fb2b9f9c7bf878f1
+      internalID: 247808718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_210
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 132
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccff8a1767c7a49418111ea107c29100
+      internalID: -1316553289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_211
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 132
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469346017f8f52e498ec125df21dfaee
+      internalID: 152259353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_212
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 132
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b204743000c37d4fbaebff0ff931c85
+      internalID: 2039894821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_213
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 132
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d9167ecb6c8ec4cbf97c5da54710d8
+      internalID: 339967449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_214
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 132
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b160e3d74cc2b4eb8dc06ec3fa4c8f
+      internalID: -1036924408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_215
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 132
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715222a32631eea439b1d1e9085fcda8
+      internalID: 1195125358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_216
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 132
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7769f846d07a643a58fcabe850bdb1
+      internalID: 362190790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_217
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 132
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ddaefc2a93f844f8a2ddf79b1eca95
+      internalID: 1450250650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_218
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 132
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf29b6c2d16d824791275cca6ed8103
+      internalID: 1130033836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_219
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 132
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76209ce71878f2b4297fe9b31b13da6a
+      internalID: 1590250833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_220
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 132
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f2f2d6c66f69b43b0908bf455afe7e
+      internalID: 1932061851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_221
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 132
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a097911e243854ab95205fc0076a4e
+      internalID: 1589977998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_222
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 132
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b9240f1d40d5341b638730c53baf7c
+      internalID: -1454894118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_223
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 132
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195fff5ab4520ec46b3364b364048558
+      internalID: 1644523854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_224
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 66
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cd5f309afe846489569e882e6c1c66
+      internalID: 844146508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_225
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 66
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef4751ecfc5b78449802bffcd793163
+      internalID: -1227323920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_226
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 66
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64f3345dc691ec4285607f0aeb66482
+      internalID: -1693554937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_227
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 66
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c90ef93d8343e4f9d0c580833dce19
+      internalID: 543557604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_228
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 66
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997c198240b83db45a48c31d1f843c59
+      internalID: 901196985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_229
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 66
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3869b7d1d1be83642ae03b56726f6aaa
+      internalID: 2056004407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_230
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 66
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc17dc7493015d448423c90f42553ed
+      internalID: -392294513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_231
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 66
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4644e0ecb74dbb84f99df374cda59e40
+      internalID: 387372880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_232
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 66
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55086aa6f3f0b04f92fe54a94ce855f
+      internalID: -1302130746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_233
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 66
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ab34532a50da04896ec6747143edbf
+      internalID: 2012736168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_234
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 66
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7142888c5e1c448b622369d715f46a
+      internalID: -1057829053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_235
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 66
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdbb13ad07c16d4d9d43903b0376c7d
+      internalID: 765412768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_236
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 66
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93764ba3a798fb241bf3d3726e5980e5
+      internalID: 660472284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_237
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 66
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944045a3fc7a6ca4eb3b9e25442c7de6
+      internalID: -299128104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_238
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 66
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62c8d8f6db380d4ca4cf16fd8f3e3ff
+      internalID: 1906878577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_239
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 66
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c909855cde17b445b5d9d86a5ec28ab
+      internalID: -292725864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbm_spritesheet_240
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0cdf45fa4b693478997138e9881a9a
+      internalID: 1488363045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 58c9aed0e36765646bb4ad24a156f740
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      kbm_spritesheet_0: -1162090479
+      kbm_spritesheet_1: -1209188926
+      kbm_spritesheet_10: 901934067
+      kbm_spritesheet_100: -329585902
+      kbm_spritesheet_101: 606913864
+      kbm_spritesheet_102: -1161973404
+      kbm_spritesheet_103: -113881428
+      kbm_spritesheet_104: -1531965648
+      kbm_spritesheet_105: 1134876344
+      kbm_spritesheet_106: 945028789
+      kbm_spritesheet_107: -641713014
+      kbm_spritesheet_108: 279810056
+      kbm_spritesheet_109: -371385718
+      kbm_spritesheet_11: 548540833
+      kbm_spritesheet_110: 653895593
+      kbm_spritesheet_111: -1106160685
+      kbm_spritesheet_112: 626657369
+      kbm_spritesheet_113: -73101683
+      kbm_spritesheet_114: 1554028049
+      kbm_spritesheet_115: -1057805953
+      kbm_spritesheet_116: -1025875624
+      kbm_spritesheet_117: -791994335
+      kbm_spritesheet_118: 185626204
+      kbm_spritesheet_119: 1155167236
+      kbm_spritesheet_12: -1046590311
+      kbm_spritesheet_120: 1026040372
+      kbm_spritesheet_121: -275629697
+      kbm_spritesheet_122: -1174195084
+      kbm_spritesheet_123: 1183562160
+      kbm_spritesheet_124: -1740424409
+      kbm_spritesheet_125: 1854862086
+      kbm_spritesheet_126: -577482237
+      kbm_spritesheet_127: 999806987
+      kbm_spritesheet_128: 1190450697
+      kbm_spritesheet_129: 279067763
+      kbm_spritesheet_13: 477718344
+      kbm_spritesheet_130: -997999485
+      kbm_spritesheet_131: 1608728481
+      kbm_spritesheet_132: -1382476923
+      kbm_spritesheet_133: 2032153432
+      kbm_spritesheet_134: -1847029432
+      kbm_spritesheet_135: 1024730312
+      kbm_spritesheet_136: 1009057814
+      kbm_spritesheet_137: 882733440
+      kbm_spritesheet_138: 2062481767
+      kbm_spritesheet_139: -434419875
+      kbm_spritesheet_14: 686826226
+      kbm_spritesheet_140: 1518818702
+      kbm_spritesheet_141: -1682090580
+      kbm_spritesheet_142: 1189048663
+      kbm_spritesheet_143: 1611276069
+      kbm_spritesheet_144: 190977149
+      kbm_spritesheet_145: 447736418
+      kbm_spritesheet_146: 834174038
+      kbm_spritesheet_147: 417152561
+      kbm_spritesheet_148: 233306906
+      kbm_spritesheet_149: -849191153
+      kbm_spritesheet_15: 1895365065
+      kbm_spritesheet_150: 1914502446
+      kbm_spritesheet_151: -1711840399
+      kbm_spritesheet_152: -1785486811
+      kbm_spritesheet_153: 981367501
+      kbm_spritesheet_154: -861847902
+      kbm_spritesheet_155: 2082795904
+      kbm_spritesheet_156: 1005696580
+      kbm_spritesheet_157: -706608330
+      kbm_spritesheet_158: 433076250
+      kbm_spritesheet_159: -1435275254
+      kbm_spritesheet_16: 865236455
+      kbm_spritesheet_160: 1824567020
+      kbm_spritesheet_161: 999444142
+      kbm_spritesheet_162: 1572200100
+      kbm_spritesheet_163: -1371148172
+      kbm_spritesheet_164: -902083508
+      kbm_spritesheet_165: 615095719
+      kbm_spritesheet_166: 225148053
+      kbm_spritesheet_167: 1023029685
+      kbm_spritesheet_168: -652577251
+      kbm_spritesheet_169: -1895143152
+      kbm_spritesheet_17: -560002180
+      kbm_spritesheet_170: 1870371022
+      kbm_spritesheet_171: 1626248614
+      kbm_spritesheet_172: 128820174
+      kbm_spritesheet_173: 5771928
+      kbm_spritesheet_174: -1912635471
+      kbm_spritesheet_175: 1263982658
+      kbm_spritesheet_176: 564463853
+      kbm_spritesheet_177: -1701744210
+      kbm_spritesheet_178: 167769943
+      kbm_spritesheet_179: -951301012
+      kbm_spritesheet_18: -828552163
+      kbm_spritesheet_180: -659607280
+      kbm_spritesheet_181: 1821742955
+      kbm_spritesheet_182: 1128158632
+      kbm_spritesheet_183: -2142822742
+      kbm_spritesheet_184: -1964468064
+      kbm_spritesheet_185: -96626846
+      kbm_spritesheet_186: -1218861018
+      kbm_spritesheet_187: -1408951301
+      kbm_spritesheet_188: -1778879497
+      kbm_spritesheet_189: 61254173
+      kbm_spritesheet_19: -544558014
+      kbm_spritesheet_190: 303811304
+      kbm_spritesheet_191: 846622666
+      kbm_spritesheet_192: -845485717
+      kbm_spritesheet_193: -845461531
+      kbm_spritesheet_194: -954722282
+      kbm_spritesheet_195: 437263953
+      kbm_spritesheet_196: -2090299060
+      kbm_spritesheet_197: -1349620544
+      kbm_spritesheet_198: 1466776730
+      kbm_spritesheet_199: 1679667324
+      kbm_spritesheet_2: 705931595
+      kbm_spritesheet_20: -1177977315
+      kbm_spritesheet_200: 1116960541
+      kbm_spritesheet_201: 2016007365
+      kbm_spritesheet_202: 358654725
+      kbm_spritesheet_203: -1316979760
+      kbm_spritesheet_204: 1797690181
+      kbm_spritesheet_205: 1179596084
+      kbm_spritesheet_206: 1445841198
+      kbm_spritesheet_207: -616789235
+      kbm_spritesheet_208: 564581521
+      kbm_spritesheet_209: 247808718
+      kbm_spritesheet_21: -1327676839
+      kbm_spritesheet_210: -1316553289
+      kbm_spritesheet_211: 152259353
+      kbm_spritesheet_212: 2039894821
+      kbm_spritesheet_213: 339967449
+      kbm_spritesheet_214: -1036924408
+      kbm_spritesheet_215: 1195125358
+      kbm_spritesheet_216: 362190790
+      kbm_spritesheet_217: 1450250650
+      kbm_spritesheet_218: 1130033836
+      kbm_spritesheet_219: 1590250833
+      kbm_spritesheet_22: -207500210
+      kbm_spritesheet_220: 1932061851
+      kbm_spritesheet_221: 1589977998
+      kbm_spritesheet_222: -1454894118
+      kbm_spritesheet_223: 1644523854
+      kbm_spritesheet_224: 844146508
+      kbm_spritesheet_225: -1227323920
+      kbm_spritesheet_226: -1693554937
+      kbm_spritesheet_227: 543557604
+      kbm_spritesheet_228: 901196985
+      kbm_spritesheet_229: 2056004407
+      kbm_spritesheet_23: 49042289
+      kbm_spritesheet_230: -392294513
+      kbm_spritesheet_231: 387372880
+      kbm_spritesheet_232: -1302130746
+      kbm_spritesheet_233: 2012736168
+      kbm_spritesheet_234: -1057829053
+      kbm_spritesheet_235: 765412768
+      kbm_spritesheet_236: 660472284
+      kbm_spritesheet_237: -299128104
+      kbm_spritesheet_238: 1906878577
+      kbm_spritesheet_239: -292725864
+      kbm_spritesheet_24: -1222755701
+      kbm_spritesheet_240: 1488363045
+      kbm_spritesheet_25: 1629869917
+      kbm_spritesheet_26: -147679823
+      kbm_spritesheet_27: 142731522
+      kbm_spritesheet_28: 442491811
+      kbm_spritesheet_29: 1304350438
+      kbm_spritesheet_3: -1719242995
+      kbm_spritesheet_30: 942713267
+      kbm_spritesheet_31: -1409065544
+      kbm_spritesheet_32: 415272785
+      kbm_spritesheet_33: -1358052348
+      kbm_spritesheet_34: 1233252650
+      kbm_spritesheet_35: -56449830
+      kbm_spritesheet_36: -576472215
+      kbm_spritesheet_37: 1524611992
+      kbm_spritesheet_38: 181138452
+      kbm_spritesheet_39: -1034899668
+      kbm_spritesheet_4: 2008523288
+      kbm_spritesheet_40: 1456389922
+      kbm_spritesheet_41: 1673514007
+      kbm_spritesheet_42: 588506089
+      kbm_spritesheet_43: -2027478084
+      kbm_spritesheet_44: -1619649637
+      kbm_spritesheet_45: -722432675
+      kbm_spritesheet_46: 723297439
+      kbm_spritesheet_47: -789483795
+      kbm_spritesheet_48: 145694273
+      kbm_spritesheet_49: 503448605
+      kbm_spritesheet_5: 443646636
+      kbm_spritesheet_50: 1344884644
+      kbm_spritesheet_51: -617906959
+      kbm_spritesheet_52: 1124631289
+      kbm_spritesheet_53: 1788657217
+      kbm_spritesheet_54: 1599732446
+      kbm_spritesheet_55: -1239480293
+      kbm_spritesheet_56: 1078288685
+      kbm_spritesheet_57: 722267254
+      kbm_spritesheet_58: 493904066
+      kbm_spritesheet_59: -1129980711
+      kbm_spritesheet_6: -1877176064
+      kbm_spritesheet_60: 229286886
+      kbm_spritesheet_61: -1337548625
+      kbm_spritesheet_62: 1689635232
+      kbm_spritesheet_63: 1510006529
+      kbm_spritesheet_64: -335901447
+      kbm_spritesheet_65: -716097587
+      kbm_spritesheet_66: 1697997939
+      kbm_spritesheet_67: 2052896810
+      kbm_spritesheet_68: -947132192
+      kbm_spritesheet_69: -1253707216
+      kbm_spritesheet_7: 1216128986
+      kbm_spritesheet_70: -2061200705
+      kbm_spritesheet_71: 1762380205
+      kbm_spritesheet_72: 1399333451
+      kbm_spritesheet_73: 51243391
+      kbm_spritesheet_74: -360683905
+      kbm_spritesheet_75: 1164663702
+      kbm_spritesheet_76: -1256641079
+      kbm_spritesheet_77: -1094718202
+      kbm_spritesheet_78: -373106680
+      kbm_spritesheet_79: -1493720273
+      kbm_spritesheet_8: 411125331
+      kbm_spritesheet_80: 1596814441
+      kbm_spritesheet_81: 1196340684
+      kbm_spritesheet_82: -527257256
+      kbm_spritesheet_83: -867195442
+      kbm_spritesheet_84: -1031154169
+      kbm_spritesheet_85: -2072756258
+      kbm_spritesheet_86: 321111750
+      kbm_spritesheet_87: -1554082214
+      kbm_spritesheet_88: -732239311
+      kbm_spritesheet_89: 996946333
+      kbm_spritesheet_9: 1367917275
+      kbm_spritesheet_90: 173808689
+      kbm_spritesheet_91: -1833878303
+      kbm_spritesheet_92: -278930553
+      kbm_spritesheet_93: 1656731685
+      kbm_spritesheet_94: -652517490
+      kbm_spritesheet_95: 1022001943
+      kbm_spritesheet_96: 1585363205
+      kbm_spritesheet_97: 70641290
+      kbm_spritesheet_98: -926767484
+      kbm_spritesheet_99: 900105298
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
