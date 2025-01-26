@@ -30,6 +30,8 @@ public class Player : MonoBehaviour
     
     [SerializeField] private Renderer armsRenderer;
 
+    [SerializeField] private GameObject grossPuddle;
+
     void Awake() {
         characterController = GetComponent<CharacterController>();
         mainCamera = Camera.main;
@@ -79,6 +81,11 @@ public class Player : MonoBehaviour
         // Calculate distance and use it to scale the effect
         float distance = Vector3.Distance(transform.position, position);
         float distanceScale = Mathf.Clamp01(distance / maxWarpDistance);
+        
+        // Spawn the gross puddle at the original position
+        if (hasFirstTeleportOccurred) {
+            Instantiate(grossPuddle, transform.position, Quaternion.identity);
+        }
         
         float warpFOV = Mathf.Lerp(originalFOV + minWarpFOVIncrease, maxWarpFOV, distanceScale);
         

@@ -317,6 +317,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 185147427951838172, guid: 956aa9c30817a4da196817481f0caf17, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7003817557649108951, guid: 956aa9c30817a4da196817481f0caf17, type: 3}
       propertyPath: m_Name
       value: PlayerCapsule
@@ -325,6 +329,10 @@ PrefabInstance:
       propertyPath: activeEgg
       value: 
       objectReference: {fileID: 1680552580}
+    - target: {fileID: 7903995763833104686, guid: 956aa9c30817a4da196817481f0caf17, type: 3}
+      propertyPath: reloadAnimator
+      value: 
+      objectReference: {fileID: 1418919822}
     - target: {fileID: 8366335340965248912, guid: 956aa9c30817a4da196817481f0caf17, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -4715,6 +4723,7 @@ MonoBehaviour:
   m_Script: {fileID: 644728410}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Entries: []
 --- !u!4 &511415485
 Transform:
   m_ObjectHideFlags: 19
@@ -12023,6 +12032,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 6752698290562028970, guid: 7830218305f2f2848a3353726f54786e, type: 3}
   m_PrefabInstance: {fileID: 1418132153}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1418919822 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5554958037546060003, guid: 956aa9c30817a4da196817481f0caf17, type: 3}
+  m_PrefabInstance: {fileID: 29226646}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1419814007
 PrefabInstance:

@@ -804,6 +804,7 @@ MonoBehaviour:
   resetXRotation: 0
   cameraRoot: {fileID: 8695099463789912396}
   armsRenderer: {fileID: 1510174630388758829}
+  grossPuddle: {fileID: 1352416437636386790, guid: c1fad694bf1a41c479a97253ef07b231, type: 3}
 --- !u!114 &7232361554590282130
 MonoBehaviour:
   m_ObjectHideFlags: 0

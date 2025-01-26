@@ -6,6 +6,7 @@ public class PlayerAnimator : MonoBehaviour
     [SerializeField] private CharacterController characterController;
     [SerializeField] private HandCannon handCannon;
     [SerializeField] private Player player;
+    [SerializeField] private Animator reloadAnimator;
     
     [Header("Animator Parameters")]
     [SerializeField] private string moveSpeedParamName = "moveSpeed";
@@ -69,6 +70,7 @@ public class PlayerAnimator : MonoBehaviour
 
     public void TriggerReload()
     {
+        reloadAnimator.SetTrigger(reloadParamName);
         animator.SetTrigger(reloadParamName);
     }
 }
