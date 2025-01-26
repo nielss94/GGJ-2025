@@ -1,0 +1,87 @@
+
+>> Please, don't delete this file and leave it next to the tool folder to keep track of which version you have downloaded.<<
+>> If you are looking for a specific feature, please let me know through the Asset Store contact methods <<
+
+Current Version : 1.0
+
+_________________________________________________________________
+
+- Features -
+
+Made specifically for Edit Mode
+Supports one or more selected objects, in the same or different scenes. 
+Spawn the selected objects randomly or in order
+Full support for Undo-Redo after or during simulation
+Rigidbody is not required. Current colliders will be used
+Posibility to keep hierarchy position
+Can spawn randomly on a circular area
+Able to spawn after slept or after a configurable time delay
+Change height from which objects are spawned
+
+_________________________________________________________________
+
+- Supported Objects -
+
+Regular Game Objects in the scene (even cameras, lights, etc)
+Asset Prefabs in the project view
+Prefabs instanced in the scene. All parameter changes, added or removed objects, and added or removed components (overrides) are kept.
+
+_________________________________________________________________
+
+- Restricted cases (to avoid bad simulation results) -
+
+Parts of a prefab. Its root object will be always selected instead
+Objects with Rigidbodies down in the hierarchy (not the root), as discouraged by Unity
+Objects with non-convex mesh colliders. They cannot be simulated since Unity 5
+Instanced prefabs that contain objects added as overrides with added objects as overrides on them too (small plus icon on them)
+
+_________________________________________________________________
+
+- How to use -
+
+1) Enable it using the custom tool dropdown button in the main toolbar (next to Move, Rotate...) 
+https://docs.unity3d.com/Manual/UsingCustomEditorTools.html
+
+2) A little window will popup in the Scene View that you can drag and drop
+
+3) Have one or more objects selected in the hierarchy or in the project view. If any unallowed object 
+is selected, an error will be displayed in the tool
+
+5) Change spawn settings in the tool GUI in the scene view if needed
+
+6) Left Click once or hold it to keep dropping objects. Simulation will stop when all of the simulated 
+objects are asleep, otherwise move the mouse out of the scene view or press "Stop Simulation" in the tool GUI.
+
+_________________________________________________________________
+
+- Warning -
+
+This tool doesn't bake objects into a single mesh at the moment. Please use any of the awesome baking tools 
+available in the Asset Store (Bakery, Mesh Baker, Total Baker...)
+
+Since changes happen in your scene before and after simulating the objects, I strongly suggest to use version 
+control software (Git, SVN, PlasticSCM...), in case the tool fails because of an unexpected bug you will be 
+able to recover the previous state.
+
+_________________________________________________________________
+
+- Under-the-hood details -
+
+Due to engine's limitations, the tool modifies the status of the rigidbodies in the scene before 
+the simulation process starts and keeps track of all changes. Then parameters and overrides in 
+prefabs are restored afterwards, even when rigidbodies had overrides beforehand.
+
+Objects with no colliders will not collide with any object when simulating. At the moment no 
+collider is created and is an upcoming feature.
+
+If selected objects to spawn are taken from different loaded scenes, the spawned copies of each 
+will respect the origin of each of them and collide only with the colliders on each scene.
+
+_________________________________________________________________
+
+- CHANGE LOG -
+
+Version 1.0 - December 2022: Initial Version
+
+
+(c) Lidia Martínez Prado
