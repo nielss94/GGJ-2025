@@ -52,6 +52,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: GrossPuddle
       objectReference: {fileID: 0}
+    - target: {fileID: 2341924354737551138, guid: 8687338e3bff06b4bac1de53d332971b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7097858317400781478, guid: 8687338e3bff06b4bac1de53d332971b, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
