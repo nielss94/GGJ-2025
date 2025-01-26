@@ -118,7 +118,6 @@ public class Egg : MonoBehaviour
 
             // Blend shape animation
             int blendShapeIndex = stage;
-            Debug.Log($"Stage {stage}, BlendShape Index: {blendShapeIndex}");
             breakSequence.Join(
                 DOTween.To(
                     () => meshRenderer.GetBlendShapeWeight(blendShapeIndex),
