@@ -490,6 +490,7 @@ MonoBehaviour:
   Banks:
   - egg
   - Global
+  - lava
   - player_sounds
   BanksToLoad: []
   LiveUpdatePort: 9264
