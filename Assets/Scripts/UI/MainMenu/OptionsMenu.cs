@@ -36,11 +36,11 @@ public class OptionsMenu : MonoBehaviour
         AudioManager.Instance.SetDialogueVolume(value);
     }
 
-    public void TPRotateHorizontalChanged(bool value) {
-        PlayerPrefs.SetInt("tpRotateHorizontal", value ? 1 : 0);
+    public void TPRotateHorizontalChanged() {
+        PlayerPrefs.SetInt("tpRotateHorizontal", tpRotateHorizontal.isOn ? 1 : 0);
     }
 
-    public void TPRotateVerticalChanged(bool value) {
-        PlayerPrefs.SetInt("tpRotateVertical", value ? 1 : 0);
+    public void TPRotateVerticalChanged() {
+        PlayerPrefs.SetInt("tpRotateVertical", tpRotateVertical.isOn ? 1 : 0);
     }
 }
