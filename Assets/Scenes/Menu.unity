@@ -764,7 +764,6 @@ MonoBehaviour:
   m_Script: {fileID: 1642155417}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Entries: []
 --- !u!4 &1045504575
 Transform:
   m_ObjectHideFlags: 19
@@ -1023,6 +1022,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactText: {fileID: 0}
   loadingScreen: {fileID: 554766485}
+  pauseMenu: {fileID: 0}
 --- !u!4 &1531370490
 Transform:
   m_ObjectHideFlags: 0
@@ -1640,6 +1640,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 1346874280}
+    - target: {fileID: 7988374807689500188, guid: f7054598f40f5b14c93bd108f7abdc7e, type: 3}
+      propertyPath: m_Value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7988374807689500188, guid: f7054598f40f5b14c93bd108f7abdc7e, type: 3}
+      propertyPath: m_MinValue
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
