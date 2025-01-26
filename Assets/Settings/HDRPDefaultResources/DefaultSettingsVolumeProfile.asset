@@ -196,7 +196,7 @@ MonoBehaviour:
   active: 1
   quality:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   intensity:
     m_OverrideState: 1
     m_Value: 0.5
@@ -226,7 +226,7 @@ MonoBehaviour:
     m_Value: 1
   m_SampleCount:
     m_OverrideState: 1
-    m_Value: 8
+    m_Value: 4
 --- !u!114 &-6899046074432117685
 MonoBehaviour:
   m_ObjectHideFlags: 3
