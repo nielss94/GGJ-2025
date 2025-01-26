@@ -17,7 +17,7 @@ public class OptionsMenu : MonoBehaviour
         dialogueVolume.value = AudioManager.Instance.DialogueVolume;
 
         tpRotateHorizontal.isOn = PlayerPrefs.GetInt("tpRotateHorizontal", 1) == 1;
-        tpRotateVertical.isOn = PlayerPrefs.GetInt("tpRotateVertical", 1) == 1;
+        tpRotateVertical.isOn = PlayerPrefs.GetInt("tpRotateVertical", 0) == 1;
     }
 
     public void MasterVolumeChanged(float value) {
