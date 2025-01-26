@@ -9,6 +9,7 @@ public class IntroManager : MonoBehaviour
     private float _introDuration;
     [SerializeField]
     private string _nextSceneName;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +24,7 @@ public class IntroManager : MonoBehaviour
 
     private IEnumerator IntroRoutine() {
         yield return new WaitForSeconds(_introDuration);
+        Destroy(AudioManager.Instance.gameObject);
         StartCoroutine(LoadNextScene());
     }
 
