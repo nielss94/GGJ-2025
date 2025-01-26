@@ -1,0 +1,2210 @@
+fileFormatVersion: 2
+guid: d48ec718d1956f647878e3e27654328d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: xbox_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 594
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c029a944d7a701f49be897d9d463a18f
+      internalID: -810983415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 594
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9bb597ebfe210409333c6676406f88
+      internalID: -656628358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 594
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3aa4daca02a1643924e51940520fd5
+      internalID: 605664392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 594
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1742f1c7ce3d959448b7ae1e0f24e891
+      internalID: -1887661387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 594
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e20d1c4a33171646b8415efeeb49d1d
+      internalID: -1470967774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 594
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad86a5798ceb394991b1c6c41b71e72
+      internalID: 67357091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 594
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd3187bb10b0a64a8b2ef2e7da3dcb0
+      internalID: 1384625023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 594
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62cf1455df6031645a1b852d433f95c0
+      internalID: 27980446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 594
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb089108be37984d8d542fa80f25cb1
+      internalID: 820966566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 594
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f650f647cc506843b68eed0992eb8a3
+      internalID: 482342036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 528
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02fcf565593b1f743968b343c2501cad
+      internalID: 2042212118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 528
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b281c8081229380409a7f6f9904ee11a
+      internalID: 1648141159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 528
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd2547a346aa6948ab97f171e5c0a76
+      internalID: -45767646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 528
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2c756453a64f34fa0583570dc64266
+      internalID: -1215523723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 528
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705477212aa1bc949b5abaee9a0634d9
+      internalID: -444914491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 528
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705f09126c276f64da620fe3d200e1ee
+      internalID: -1437278871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 528
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab2ab7522a04294d8663ecd78364a36
+      internalID: 592543440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 528
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c0fa9835ec166409b7c6c6c8eefce7
+      internalID: 154074590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 528
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc6738040c0de94f94ce852eabcdeb6
+      internalID: 749984568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 528
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242aebf3a8376f94c8be98e030578ebd
+      internalID: -2051219345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 462
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f826c082714614ea471736dd21f8e4
+      internalID: -143336968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 462
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40bb16a159105e545beeb13b57c15c9c
+      internalID: 557682765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 462
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851bb962f32e87649a42443df0f3f83b
+      internalID: 1779991045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 462
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6639897c5c20a944b576d05cb0e8794
+      internalID: -247111685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 462
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a68a32fec981c4e85a6c8017c6229e
+      internalID: 1695196274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 462
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e635ca208b746b4480af085c1ca9723
+      internalID: -1006746999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 462
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701fa1b46bc0cfb4f82ccef0aa815f8c
+      internalID: 445274468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 462
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d41ee3d2ae615144ba85c5eb8883554
+      internalID: -30032979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 462
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e19c164f8134241aa2ba9ff3573d35
+      internalID: -1258075463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 462
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427c51478e77b1d46a03dcd5dd172109
+      internalID: 330812543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 396
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e86f71c7f634445ae1f19d72c88653
+      internalID: 1716654153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 396
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e19e31ffa2bc4946b1498b4b5c01b45
+      internalID: 1906210927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 396
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782a50ec58df4074095b974b5b4c570e
+      internalID: -979822997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 396
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f03e8f561b1384e8891f6a336e8c69
+      internalID: 1728465633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 396
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08efc2f4e412260409f31607463645d3
+      internalID: -1743737654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 396
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c09afcef8a0e1e42a0f32da77cc997c
+      internalID: 2055974771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 396
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3b880538960354eb1c9ccc978bc8e6
+      internalID: 1708450703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 396
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d7e26ee49d5694c94dedef61307664
+      internalID: 671349208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 396
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be67fa4c1e6b614d9195a4c6d37ac0d
+      internalID: 584560014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 396
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53b0ab6085eeab4f95dc944d59f6b2c
+      internalID: 1922982656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 330
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a494867a2f67514780c4af9a2cdfb5e
+      internalID: 916476609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 330
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78faa202595a38c41bc2744cc4e570a7
+      internalID: -1803224361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 330
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441872ff120d3ce4dabeedf870180a8d
+      internalID: -1780706485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 330
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6bd15ceea7644d4eb5a6bd431b55b15
+      internalID: -337583688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 330
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bed14a3fdc41d4c82dfee40ffa0888
+      internalID: 1191115678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 330
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7582af0f14157fa48abd5921d4ebe033
+      internalID: 204415695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 330
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ffe51f945deec42b9d2b0bec707b32
+      internalID: -1961063555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 330
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b0d472ac6e9fd49a4a6806983f30e9
+      internalID: -1836145573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 330
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7d3b45d7b09494d833676eac9b9c2d
+      internalID: -1754226456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 330
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b78135a08ca5144b3a20c8a4f08fb0
+      internalID: -150743716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 264
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c83b31e125f1024fa31a6d64c06c2e3
+      internalID: 2031654507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 264
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4449a2959ea8f2b4b89f39c3d74de5ae
+      internalID: -530991561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 264
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d73a154eabda524eb016b4840417fd6
+      internalID: 1531237820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 264
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3887b937b87094a98a830a1c748a2a
+      internalID: -154449667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 264
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab944da7bb2a54d4a96c41ac4150411d
+      internalID: -14157321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 264
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d07c0d404ec60e44a0f24f2b98e5672
+      internalID: -1493059753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 264
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669a20468506b594eaeb204f2996e47a
+      internalID: -1124377982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 264
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74066344c45f6e345ab9de3edf5c2d38
+      internalID: 746994443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 264
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9baf21210aa84414a9bb3326db87a6a0
+      internalID: 874055394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 264
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415afd506e95f034faf05cadabf63961
+      internalID: 1256303083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 198
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce8bdb80e2afc746a6d87b9955c619c
+      internalID: 431964822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 198
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb48034cb6d6ef41a5de8aef8ad28fa
+      internalID: -1595333950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 198
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b5aad78c8ae4a44a1c588a0e7fc831
+      internalID: 2127547700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 198
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161b48bcc2e048d46821b744381841a7
+      internalID: -2088143156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 198
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c50ba48921f64428ad89604a4b38b7
+      internalID: -144385914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 198
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d9eb693cbdb4d4b9c8cd683e65d63b
+      internalID: 2126499929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 198
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f424b71d148e64f88a8a2bbccf56dc
+      internalID: 414636022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 198
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a60c2fccb173e4db64d93993fc6a28
+      internalID: -369005882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 198
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f004efd1619e534f83372c07b9e122e
+      internalID: 473192394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 198
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f639c6423a6c794cabc68e3209d2742
+      internalID: -576105912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 132
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe44efaac6ac1cb41b7484dd5aede0dc
+      internalID: -1129064273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 132
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c05913ba9ed994298c947b93490ccb
+      internalID: -1117124920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 132
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0316b88f642f7c043a24b799ede59403
+      internalID: -798944217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 132
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d527cf874376646b078ff084ea7957
+      internalID: 572765789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 132
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b22a8db231f1524aa5082ae5dceefcd
+      internalID: -167923392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 132
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c055360aace7cb42b292c6d0f66060d
+      internalID: -510304930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 132
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c720ae10c8003f4083937fd59c8732e
+      internalID: 1545793855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 132
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafb151e19d871749ba10a9bd6551e28
+      internalID: 916375005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 132
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac093ca85459c824087558a0c08f7176
+      internalID: 1127301651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 132
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a491974017d18409ec86bc7a03096e
+      internalID: 263625125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 66
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c4b4bf89fbd2e4ea1a2e0186ac6dd0
+      internalID: 122732121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 66
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15c58ec2e0ec984dbadd628cfac8a5c
+      internalID: 1345133427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 66
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00537012dcf43464b96339d7cc17bdbb
+      internalID: 256356358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 66
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a439ed4951b24645ac55eab3bde7311
+      internalID: -1489627725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 66
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2812c6947e6d984ca01f57a48d4350e
+      internalID: 1660253872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 66
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6470cf22dda5fb34cbab9551dc1c4a6d
+      internalID: -1462847038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 66
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb821552c604b484b8f29f257319ce4d
+      internalID: -1999436158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 66
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79085f9309141c4baf5a6e0431fa397
+      internalID: -1987255748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 66
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c5fd48c6cd64243b0aaef412e1f429
+      internalID: 976016113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 66
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c45a106decc3d408de35d6d678996d
+      internalID: -487401341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox_spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c8f3cc9becd4743be79e3ead557ffb
+      internalID: 1357315758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 001827bcd545fd3448d473418b3cfbb2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      xbox_spritesheet_0: -810983415
+      xbox_spritesheet_1: -656628358
+      xbox_spritesheet_10: 2042212118
+      xbox_spritesheet_11: 1648141159
+      xbox_spritesheet_12: -45767646
+      xbox_spritesheet_13: -1215523723
+      xbox_spritesheet_14: -444914491
+      xbox_spritesheet_15: -1437278871
+      xbox_spritesheet_16: 592543440
+      xbox_spritesheet_17: 154074590
+      xbox_spritesheet_18: 749984568
+      xbox_spritesheet_19: -2051219345
+      xbox_spritesheet_2: 605664392
+      xbox_spritesheet_20: -143336968
+      xbox_spritesheet_21: 557682765
+      xbox_spritesheet_22: 1779991045
+      xbox_spritesheet_23: -247111685
+      xbox_spritesheet_24: 1695196274
+      xbox_spritesheet_25: -1006746999
+      xbox_spritesheet_26: 445274468
+      xbox_spritesheet_27: -30032979
+      xbox_spritesheet_28: -1258075463
+      xbox_spritesheet_29: 330812543
+      xbox_spritesheet_3: -1887661387
+      xbox_spritesheet_30: 1716654153
+      xbox_spritesheet_31: 1906210927
+      xbox_spritesheet_32: -979822997
+      xbox_spritesheet_33: 1728465633
+      xbox_spritesheet_34: -1743737654
+      xbox_spritesheet_35: 2055974771
+      xbox_spritesheet_36: 1708450703
+      xbox_spritesheet_37: 671349208
+      xbox_spritesheet_38: 584560014
+      xbox_spritesheet_39: 1922982656
+      xbox_spritesheet_4: -1470967774
+      xbox_spritesheet_40: 916476609
+      xbox_spritesheet_41: -1803224361
+      xbox_spritesheet_42: -1780706485
+      xbox_spritesheet_43: -337583688
+      xbox_spritesheet_44: 1191115678
+      xbox_spritesheet_45: 204415695
+      xbox_spritesheet_46: -1961063555
+      xbox_spritesheet_47: -1836145573
+      xbox_spritesheet_48: -1754226456
+      xbox_spritesheet_49: -150743716
+      xbox_spritesheet_5: 67357091
+      xbox_spritesheet_50: 2031654507
+      xbox_spritesheet_51: -530991561
+      xbox_spritesheet_52: 1531237820
+      xbox_spritesheet_53: -154449667
+      xbox_spritesheet_54: -14157321
+      xbox_spritesheet_55: -1493059753
+      xbox_spritesheet_56: -1124377982
+      xbox_spritesheet_57: 746994443
+      xbox_spritesheet_58: 874055394
+      xbox_spritesheet_59: 1256303083
+      xbox_spritesheet_6: 1384625023
+      xbox_spritesheet_60: 431964822
+      xbox_spritesheet_61: -1595333950
+      xbox_spritesheet_62: 2127547700
+      xbox_spritesheet_63: -2088143156
+      xbox_spritesheet_64: -144385914
+      xbox_spritesheet_65: 2126499929
+      xbox_spritesheet_66: 414636022
+      xbox_spritesheet_67: -369005882
+      xbox_spritesheet_68: 473192394
+      xbox_spritesheet_69: -576105912
+      xbox_spritesheet_7: 27980446
+      xbox_spritesheet_70: -1129064273
+      xbox_spritesheet_71: -1117124920
+      xbox_spritesheet_72: -798944217
+      xbox_spritesheet_73: 572765789
+      xbox_spritesheet_74: -167923392
+      xbox_spritesheet_75: -510304930
+      xbox_spritesheet_76: 1545793855
+      xbox_spritesheet_77: 916375005
+      xbox_spritesheet_78: 1127301651
+      xbox_spritesheet_79: 263625125
+      xbox_spritesheet_8: 820966566
+      xbox_spritesheet_80: 122732121
+      xbox_spritesheet_81: 1345133427
+      xbox_spritesheet_82: 256356358
+      xbox_spritesheet_83: -1489627725
+      xbox_spritesheet_84: 1660253872
+      xbox_spritesheet_85: -1462847038
+      xbox_spritesheet_86: -1999436158
+      xbox_spritesheet_87: -1987255748
+      xbox_spritesheet_88: 976016113
+      xbox_spritesheet_89: -487401341
+      xbox_spritesheet_9: 482342036
+      xbox_spritesheet_90: 1357315758
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
