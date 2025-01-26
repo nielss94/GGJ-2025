@@ -14,7 +14,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float maxWarpDuration = 1.2f;
     [SerializeField] private float firstTeleportDuration = 1.0f;
     [SerializeField] private bool rotateTowardsDestination = true;
-    [SerializeField] private bool resetXRotation = true;
+    [SerializeField] private bool resetXRotation = false;
 
     [SerializeField] private GGJ2025EventEmitter travelingEmitter;
     
@@ -32,6 +32,11 @@ public class Player : MonoBehaviour
         characterController = GetComponent<CharacterController>();
         mainCamera = Camera.main;
         firstPersonController = GetComponent<FirstPersonController>();
+    }
+
+    void Start() {
+        rotateTowardsDestination = PlayerPrefs.GetInt("tpRotateHorizontal", 1) == 1;
+        resetXRotation = PlayerPrefs.GetInt("tpRotateVertical", 0) == 1;
     }
 
     public void Die()

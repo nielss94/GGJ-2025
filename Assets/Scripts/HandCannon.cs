@@ -38,6 +38,7 @@ public class HandCannon : MonoBehaviour
     private FirstPersonController firstPersonController;
 
     private bool canShoot = true;
+    private bool isFiring = false;
 
     [SerializeField] private SkinnedMeshRenderer arms;
 
@@ -63,9 +64,9 @@ public class HandCannon : MonoBehaviour
             return;
         }
 
-        if (!canShoot)
+        if (!canShoot || isFiring)
         {
-            Debug.Log("Cant fire, canShoot is false");
+            Debug.Log("Cant fire, canShoot is false or already firing");
             return;
         }
 
@@ -75,6 +76,7 @@ public class HandCannon : MonoBehaviour
         }
         
         OnFire?.Invoke();
+        isFiring = true;
         eggActivationTime = Time.time;
         StartCoroutine(WaitAndFire());
     }
@@ -84,6 +86,7 @@ public class HandCannon : MonoBehaviour
         activeEgg = Instantiate(eggPrefab, firePoint.position, firePoint.rotation);
         activeEgg.Launch(bulletForce);
         activeEgg.OnBreak += OnEggBreak;
+        isFiring = false;
     }
 
     public void Teleport()

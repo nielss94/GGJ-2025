@@ -7,26 +7,6 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Arms1
-    second: {fileID: 2100000, guid: 8dca568f3aa842b4aaa68936fbae32e7, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: EggInner
-    second: {fileID: 2100000, guid: 7c61d7908bd3b754986072181c3f0708, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: EggOuter
-    second: {fileID: 2100000, guid: eff7943dd61074b419ffd6efca91b6c2, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Fetus
-    second: {fileID: 2100000, guid: 485218ed7d2c8b04796439344da3b44a, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
       name: lambert1
     second: {fileID: 2100000, guid: 8dca568f3aa842b4aaa68936fbae32e7, type: 2}
   - first:
@@ -64,8 +44,8 @@ ModelImporter:
       name: Idle
       takeName: Take 001
       internalID: 1827226128182048838
-      firstFrame: 20
-      lastFrame: 100
+      firstFrame: 25
+      lastFrame: 95
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -182,35 +162,6 @@ ModelImporter:
       internalID: -5059006814000262888
       firstFrame: 258
       lastFrame: 270
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1
-    - serializedVersion: 16
-      name: Load Arm Gun
-      takeName: Take 001
-      internalID: 6234510843852800090
-      firstFrame: 305
-      lastFrame: 320
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
