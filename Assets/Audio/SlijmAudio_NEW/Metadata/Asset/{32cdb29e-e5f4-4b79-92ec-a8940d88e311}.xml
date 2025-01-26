@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{32cdb29e-e5f4-4b79-92ec-a8940d88e311}">
+		<property name="assetPath">
+			<value>eggbreak/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a07f1021-1e53-4b15-aa65-28f5967d30e5}</destination>
+		</relationship>
+	</object>
+</objects>

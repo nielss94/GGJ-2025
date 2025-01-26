@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{dee30c44-dab7-401e-b12d-7f6a4385edbd}">
+		<property name="assetPath">
+			<value>tl_buizen/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a07f1021-1e53-4b15-aa65-28f5967d30e5}</destination>
+		</relationship>
+	</object>
+</objects>
