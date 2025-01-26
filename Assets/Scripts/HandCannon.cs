@@ -40,12 +40,9 @@ public class HandCannon : MonoBehaviour
     private bool canShoot = true;
     private bool isFiring = false;
 
-    [SerializeField] private SkinnedMeshRenderer arms;
-
     private bool initialTeleportFinished = false;
 
     private void Awake() {
-        arms.enabled = false;
         player.GetComponent<CharacterController>().enabled = false;
         if (!activeEgg) {
             activeEgg = Instantiate(eggPrefab, firePoint.position + player.transform.forward.normalized * 2 + player.transform.up.normalized * 2, firePoint.rotation);
@@ -117,7 +114,6 @@ public class HandCannon : MonoBehaviour
         initialTeleportFinished = true;
         activeEgg.AnimateAndBreak();
         player.TeleportPlayer(activeEgg.transform.position);
-        arms.enabled = true;
         OnTeleport?.Invoke();
     }
 

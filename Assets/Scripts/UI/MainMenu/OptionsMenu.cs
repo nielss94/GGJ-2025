@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class OptionsMenu : MonoBehaviour
@@ -18,6 +19,10 @@ public class OptionsMenu : MonoBehaviour
 
         tpRotateHorizontal.isOn = PlayerPrefs.GetInt("tpRotateHorizontal", 1) == 1;
         tpRotateVertical.isOn = PlayerPrefs.GetInt("tpRotateVertical", 0) == 1;
+    }
+
+    private void OnEnable() {
+        EventSystem.current.SetSelectedGameObject(masterVolume.gameObject);
     }
 
     public void MasterVolumeChanged(float value) {

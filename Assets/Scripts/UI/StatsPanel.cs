@@ -13,7 +13,7 @@ public class StatsPanel : MonoBehaviour
 
     void Awake()
     {
-        Events.OnEggSpeed += SetEggVelocity;
+        // Events.OnEggSpeed += SetEggVelocity;
         Events.OnRebirth += Rebirth;
     }
 

@@ -463,8 +463,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: Assets/Audio/SlijmAudio/SlijmAudio.fspro
-  sourceBankPath: Assets/Audio/SlijmAudio/Build
+  sourceProjectPath: Assets/Audio/SlijmAudio_NEW/SlijmAudio_NEW.fspro
+  sourceBankPath: Assets/Audio/SlijmAudio_NEW/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -488,8 +488,9 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
-  - Egg
+  - egg
   - Global
+  - lava
   - player_sounds
   BanksToLoad: []
   LiveUpdatePort: 9264

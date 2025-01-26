@@ -202,7 +202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9468c5f457ace64f8d4df6d642b107f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LoadEvent: 0
+  LoadEvent: 1
   UnloadEvent: 0
   Banks:
   - Egg
@@ -254,11 +254,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1753526809
-      Data2: 1278417369
-      Data3: 866889380
-      Data4: -1299639913
-    Path: event:/cancel_egg
+      Data1: 429929051
+      Data2: 1185592742
+      Data3: -1978959488
+      Data4: 1278901025
+    Path: event:/egg_bounce
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0

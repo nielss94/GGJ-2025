@@ -15,8 +15,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float firstTeleportDuration = 1.0f;
     [SerializeField] private bool rotateTowardsDestination = true;
     [SerializeField] private bool resetXRotation = false;
-
-    [SerializeField] private GGJ2025EventEmitter travelingEmitter;
+    public bool IsTeleporting { get; private set; } = false;
     
     [Header("References")]
     [SerializeField] private Transform cameraRoot;
@@ -25,18 +24,23 @@ public class Player : MonoBehaviour
     public event Action OnPlayerDeath;
     private bool isDead = false;
     private CharacterController characterController;
+    private PlayerControls playerControls;  
     private Camera mainCamera;
     private bool hasFirstTeleportOccurred = false;
+    
+    [SerializeField] private Renderer armsRenderer;
 
     void Awake() {
         characterController = GetComponent<CharacterController>();
         mainCamera = Camera.main;
         firstPersonController = GetComponent<FirstPersonController>();
+        playerControls = GetComponent<PlayerControls>();
     }
 
     void Start() {
         rotateTowardsDestination = PlayerPrefs.GetInt("tpRotateHorizontal", 1) == 1;
         resetXRotation = PlayerPrefs.GetInt("tpRotateVertical", 0) == 1;
+        armsRenderer.enabled = false;
     }
 
     public void Die()
@@ -52,6 +56,19 @@ public class Player : MonoBehaviour
     {
         TeleportPlayer(spawnPosition);
         isDead = false;
+    }
+
+    public void DisableControls() {
+        characterController.enabled = false;
+        firstPersonController.enabled = false;
+        playerControls.DisableControls();
+    }
+
+    public void EnableControlsIfFirstTeleportOccurred() {
+        if (hasFirstTeleportOccurred) {
+            characterController.enabled = true;
+            firstPersonController.enabled = true;
+        }
     }
 
     public void TeleportPlayer(Vector3 position) {
@@ -70,7 +87,6 @@ public class Player : MonoBehaviour
             firstTeleportDuration : 
             minWarpDuration + (maxWarpDuration - minWarpDuration) * (distanceScale * distanceScale);
         
-        hasFirstTeleportOccurred = true;
         
         var moveSequence = DOTween.Sequence()
             .Join(transform.DOMove(position, moveDuration).SetEase(Ease.InOutQuint))
@@ -89,7 +105,9 @@ public class Player : MonoBehaviour
                 field.SetValue(firstPersonController, 0f);
             }
         }
+
         
+        IsTeleporting = true;
         sequence
             .SetEase(Ease.InOutQuad)
             // Warp out effect
@@ -100,12 +118,23 @@ public class Player : MonoBehaviour
             .Append(moveSequence)
             // Re-enable character controller after move
             .AppendCallback(() => characterController.enabled = true)
+            .AppendCallback(() => IsTeleporting = false)
             // Warp in effect
             .Append(mainCamera.DOFieldOfView(originalFOV, moveDuration * 0.5f).SetEase(Ease.OutExpo))
             .AppendCallback(() => {
                 Events.Rebirth();
+
+                hasFirstTeleportOccurred = true;
             }).OnUpdate(() => {
-                travelingEmitter.SetTraveling(sequence.ElapsedPercentage());
+                if (sequence.ElapsedPercentage() > 0.2f && sequence.ElapsedPercentage() < 0.6f) {
+                        armsRenderer.enabled = false;
+                    } else {
+                        if (sequence.ElapsedPercentage() > 0.6f || (sequence.ElapsedPercentage() < 0.2f && hasFirstTeleportOccurred )) {
+                            armsRenderer.enabled = true;
+                        }
+                    }
+                AudioManager.Instance.SetTraveling(sequence.ElapsedPercentage());
             });
     }
 }
+
