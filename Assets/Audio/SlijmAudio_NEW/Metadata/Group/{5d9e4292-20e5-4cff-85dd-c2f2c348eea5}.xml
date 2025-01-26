@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{5d9e4292-20e5-4cff-85dd-c2f2c348eea5}">
+		<property name="name">
+			<value>SoundFX</value>
+		</property>
+		<relationship name="automators">
+			<destination>{9241a448-8a4c-4408-a079-b04a2428bef8}</destination>
+		</relationship>
+		<relationship name="effectChain">
+			<destination>{651bc461-e209-4f35-bafa-59608c53ad62}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{a290fd19-4b9b-4cb4-a9ff-cd43730ad47e}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{0aad15bc-ee98-4d00-89ec-3f5285762e10}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{9241a448-8a4c-4408-a079-b04a2428bef8}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>volume</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{463ecadf-1295-4079-af53-c0baf4e08818}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{651bc461-e209-4f35-bafa-59608c53ad62}">
+		<relationship name="effects">
+			<destination>{0dd1563f-f572-4d3f-9ca2-3260e7cf5946}</destination>
+			<destination>{f813a5f8-8492-4fa1-b4fb-688e9b1c74d2}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{a290fd19-4b9b-4cb4-a9ff-cd43730ad47e}" />
+	<object class="AutomationCurve" id="{463ecadf-1295-4079-af53-c0baf4e08818}">
+		<relationship name="parameter">
+			<destination>{5e759f75-0073-45d7-8fd2-65cbf0ff9cfe}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{dec193f4-9987-444a-a4c1-041c5fbe80f9}</destination>
+			<destination>{b9b1dc57-4d7a-43a7-bc1b-65db40bf3243}</destination>
+		</relationship>
+	</object>
+	<object class="ThreeEQEffect" id="{0dd1563f-f572-4d3f-9ca2-3260e7cf5946}">
+		<property name="lowGain">
+			<value>-10</value>
+		</property>
+		<property name="midGain">
+			<value>-2</value>
+		</property>
+		<property name="highGain">
+			<value>1.5</value>
+		</property>
+		<property name="lowCrossover">
+			<value>100</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{f813a5f8-8492-4fa1-b4fb-688e9b1c74d2}" />
+	<object class="AutomationPoint" id="{dec193f4-9987-444a-a4c1-041c5fbe80f9}">
+		<property name="position">
+			<value>0.99293785310734461</value>
+		</property>
+		<property name="value">
+			<value>3.81469727e-06</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{b9b1dc57-4d7a-43a7-bc1b-65db40bf3243}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+	</object>
+</objects>
