@@ -104,7 +104,6 @@ MonoBehaviour:
   firePoint: {fileID: 19496968908087142}
   player: {fileID: 7620460534309501243}
   firstPersonController: {fileID: 6365014829323111654}
-  arms: {fileID: 1510174630388758829}
 --- !u!114 &8061290118705545861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -802,8 +801,8 @@ MonoBehaviour:
   firstTeleportDuration: 1
   rotateTowardsDestination: 1
   resetXRotation: 0
-  travelingEmitter: {fileID: 0}
   cameraRoot: {fileID: 8695099463789912396}
+  armsRenderer: {fileID: 1510174630388758829}
 --- !u!114 &7232361554590282130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -837,10 +836,11 @@ MonoBehaviour:
   animator: {fileID: 115367739620342404}
   characterController: {fileID: 267914167060462133}
   handCannon: {fileID: 7051310882256765979}
+  player: {fileID: 7620460534309501243}
   moveSpeedParamName: moveSpeed
   shootParamName: shoot
   cancelParamName: cancel
-  teleportParamName: teleport
+  teleportParamName: teleporting
   reloadParamName: reload
 --- !u!1001 &8824415638937538063
 PrefabInstance:

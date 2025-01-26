@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float firstTeleportDuration = 1.0f;
     [SerializeField] private bool rotateTowardsDestination = true;
     [SerializeField] private bool resetXRotation = false;
+    public bool IsTeleporting { get; private set; } = false;
     
     [Header("References")]
     [SerializeField] private Transform cameraRoot;
@@ -26,6 +27,8 @@ public class Player : MonoBehaviour
     private PlayerControls playerControls;  
     private Camera mainCamera;
     private bool hasFirstTeleportOccurred = false;
+    
+    [SerializeField] private Renderer armsRenderer;
 
     void Awake() {
         characterController = GetComponent<CharacterController>();
@@ -37,6 +40,7 @@ public class Player : MonoBehaviour
     void Start() {
         rotateTowardsDestination = PlayerPrefs.GetInt("tpRotateHorizontal", 1) == 1;
         resetXRotation = PlayerPrefs.GetInt("tpRotateVertical", 0) == 1;
+        armsRenderer.enabled = false;
     }
 
     public void Die()
@@ -94,7 +98,9 @@ public class Player : MonoBehaviour
                 field.SetValue(firstPersonController, 0f);
             }
         }
+
         
+        IsTeleporting = true;
         sequence
             .SetEase(Ease.InOutQuad)
             // Warp out effect
@@ -105,11 +111,17 @@ public class Player : MonoBehaviour
             .Append(moveSequence)
             // Re-enable character controller after move
             .AppendCallback(() => characterController.enabled = true)
+            .AppendCallback(() => IsTeleporting = false)
             // Warp in effect
             .Append(mainCamera.DOFieldOfView(originalFOV, moveDuration * 0.5f).SetEase(Ease.OutExpo))
             .AppendCallback(() => {
                 Events.Rebirth();
             }).OnUpdate(() => {
+                if (sequence.ElapsedPercentage() > 0.2f && sequence.ElapsedPercentage() < 0.6f) {
+                        armsRenderer.enabled = false;
+                    } else {
+                        armsRenderer.enabled = true;
+                    }
                 AudioManager.Instance.SetTraveling(sequence.ElapsedPercentage());
             });
     }
