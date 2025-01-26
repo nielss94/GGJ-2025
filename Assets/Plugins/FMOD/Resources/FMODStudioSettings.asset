@@ -488,9 +488,11 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
+  - AmbianceSounds
   - egg
   - Global
   - lava
+  - PIEL
   - player_sounds
   BanksToLoad: []
   LiveUpdatePort: 9264
