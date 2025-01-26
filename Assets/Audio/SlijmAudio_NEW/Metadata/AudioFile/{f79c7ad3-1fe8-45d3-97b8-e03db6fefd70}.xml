@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{f79c7ad3-1fe8-45d3-97b8-e03db6fefd70}">
+		<property name="assetPath">
+			<value>Splashpiel_snd.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>8.0079791666666669</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a07f1021-1e53-4b15-aa65-28f5967d30e5}</destination>
+		</relationship>
+	</object>
+</objects>
