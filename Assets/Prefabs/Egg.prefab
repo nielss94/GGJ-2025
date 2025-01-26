@@ -35,7 +35,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0.3413628, y: 1.5460228, z: 1.0177579}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 3551573368938358797}
   m_Father: {fileID: 0}
@@ -191,6 +191,12 @@ MonoBehaviour:
   blendShapeEase: 7
   highVelocityThreshold: 3
   eggSplatter: {fileID: 5747601293108609112, guid: 025f1479c994adf42a7437b9fdca87f6, type: 3}
+  eggSplatterInnerMetallicResult: 0.2
+  eggSplatterInnerColor: {r: 1, g: 0, b: 0, a: 0.78431374}
+  eggSplatterOuterMetallicResult: 0.983
+  eggSplatterOuterColor: {r: 1, g: 0.5014026, b: 0, a: 0.78431374}
+  eggSplatterInnerRenderer: {fileID: 7625991013355504495}
+  eggSplatterOuterRenderer: {fileID: 5936498156239183157}
 --- !u!114 &-8188999363079394510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -359,5 +365,15 @@ PrefabInstance:
 --- !u!4 &3551573368938358797 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4842550325625479171, guid: 4442b71f3bcad0942b86d2c5f9e075f9, type: 3}
+  m_PrefabInstance: {fileID: 8249900675116632078}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &5936498156239183157 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2314609872851752251, guid: 4442b71f3bcad0942b86d2c5f9e075f9, type: 3}
+  m_PrefabInstance: {fileID: 8249900675116632078}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &7625991013355504495 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1993263503132412769, guid: 4442b71f3bcad0942b86d2c5f9e075f9, type: 3}
   m_PrefabInstance: {fileID: 8249900675116632078}
   m_PrefabAsset: {fileID: 0}

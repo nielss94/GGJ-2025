@@ -54,6 +54,18 @@ public class Egg : MonoBehaviour
     [SerializeField]
     private GameObject eggSplatter;
 
+    [SerializeField]
+    private float eggSplatterInnerMetallicResult = 0.2f;
+    [SerializeField]
+    private Color eggSplatterInnerColor = new Color(1, 0, 0, 0.78431374f);
+    [SerializeField]
+    private float eggSplatterOuterMetallicResult = 0.983f;
+    [SerializeField]
+    private Color eggSplatterOuterColor = new Color(1, 0.5014026f, 0, 0.78431374f);
+    [SerializeField]
+    private Renderer eggSplatterInnerRenderer;
+    [SerializeField]
+    private Renderer eggSplatterOuterRenderer;
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -79,12 +91,28 @@ public class Egg : MonoBehaviour
             Break();
         });
     }
+    public void Bleed() {
+        var sequence = DOTween.Sequence();
+        sequence.Join(DOTween.To(() => eggSplatterInnerRenderer.material.GetFloat("_Metallic"), 
+                x => eggSplatterInnerRenderer.material.SetFloat("_Metallic", x), 
+                eggSplatterInnerMetallicResult, 0.5f))
+            .Join(DOTween.To(() => eggSplatterInnerRenderer.material.GetColor("_BaseColor"),
+                x => eggSplatterInnerRenderer.material.SetColor("_BaseColor", x),
+                eggSplatterInnerColor, 0.5f))
+            .Join(DOTween.To(() => eggSplatterOuterRenderer.material.GetFloat("_Metallic"),
+                x => eggSplatterOuterRenderer.material.SetFloat("_Metallic", x),
+                eggSplatterOuterMetallicResult, 0.5f))
+            .Join(DOTween.To(() => eggSplatterOuterRenderer.material.GetColor("_BaseColor"),
+                x => eggSplatterOuterRenderer.material.SetColor("_BaseColor", x),
+                eggSplatterOuterColor, 0.5f));
+    }
 
     public void Break(bool splatter = false)
     {
         if (splatter) {
+            
             Instantiate(eggSplatter, transform.position, eggSplatter.transform.rotation);
-        }
+        } 
         isBreaking = true;
         OnEggBreak?.Invoke();
         OnBreak?.Invoke();
