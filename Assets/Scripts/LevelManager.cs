@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
@@ -45,6 +46,10 @@ public class LevelManager : MonoBehaviour
         
         player.OnPlayerDeath += RespawnPlayer;
         AddCheckpoint(player.transform.position);
+    }
+
+    public void RestartLevel() {
+        SceneController.Instance.LoadLevel(SceneManager.GetActiveScene().name);
     }
 
     private void OnDrawGizmos()
