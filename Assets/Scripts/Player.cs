@@ -60,7 +60,15 @@ public class Player : MonoBehaviour
 
     public void DisableControls() {
         characterController.enabled = false;
+        firstPersonController.enabled = false;
         playerControls.DisableControls();
+    }
+
+    public void EnableControlsIfFirstTeleportOccurred() {
+        if (hasFirstTeleportOccurred) {
+            characterController.enabled = true;
+            firstPersonController.enabled = true;
+        }
     }
 
     public void TeleportPlayer(Vector3 position) {

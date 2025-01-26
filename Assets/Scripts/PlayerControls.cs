@@ -1,3 +1,4 @@
+using System;
 using StarterAssets;
 using UnityEngine;
 
@@ -14,6 +15,23 @@ public class PlayerControls : MonoBehaviour
     void Awake() {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+
+        UIManager.Instance.OnPauseMenuToggled += OnPauseMenuToggled;
+    }
+
+    private void OnDestroy() {
+        UIManager.Instance.OnPauseMenuToggled -= OnPauseMenuToggled;
+    }
+
+    private void OnPauseMenuToggled(bool isActive)
+    {
+        if (isActive) {
+            GetComponent<Player>().DisableControls();
+            controlsEnabled = false;
+        } else {
+            GetComponent<Player>().EnableControlsIfFirstTeleportOccurred();
+            controlsEnabled = true;
+        }
     }
 
     public void SetCanShoot(bool canShoot) {
@@ -28,7 +46,10 @@ public class PlayerControls : MonoBehaviour
 
     void OnCancel()
     {
-        if (!controlsEnabled) return;
+        if (!controlsEnabled) {
+            UIManager.Instance.TogglePauseMenu();
+            return;
+        }
         handCannon.Cancel();
     }
 
@@ -36,6 +57,10 @@ public class PlayerControls : MonoBehaviour
     {
         if (!controlsEnabled) return;
         handCannon.Teleport();
+    }
+
+    void OnStart() {
+        UIManager.Instance.TogglePauseMenu();
     }
 
     void OnInteract()
