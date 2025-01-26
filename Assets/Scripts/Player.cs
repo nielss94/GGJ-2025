@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float maxWarpDistance = 10f;
     [SerializeField] private float minWarpDuration = 0.5f;
     [SerializeField] private float maxWarpDuration = 1.2f;
+    [SerializeField] private float firstTeleportDuration = 1.0f;
     [SerializeField] private bool rotateTowardsDestination = true;
     [SerializeField] private bool resetXRotation = false;
 
@@ -25,6 +26,7 @@ public class Player : MonoBehaviour
     private bool isDead = false;
     private CharacterController characterController;
     private Camera mainCamera;
+    private bool hasFirstTeleportOccurred = false;
 
     void Awake() {
         characterController = GetComponent<CharacterController>();
@@ -64,8 +66,13 @@ public class Player : MonoBehaviour
         float distanceScale = Mathf.Clamp01(distance / maxWarpDistance);
         
         float warpFOV = Mathf.Lerp(originalFOV + minWarpFOVIncrease, maxWarpFOV, distanceScale);
-        // Exponential scaling for duration based on distance
-        float moveDuration = minWarpDuration + (maxWarpDuration - minWarpDuration) * (distanceScale * distanceScale);
+        
+        // Use firstTeleportDuration for the first teleport, otherwise use distance-based duration
+        float moveDuration = !hasFirstTeleportOccurred ? 
+            firstTeleportDuration : 
+            minWarpDuration + (maxWarpDuration - minWarpDuration) * (distanceScale * distanceScale);
+        
+        hasFirstTeleportOccurred = true;
         
         var moveSequence = DOTween.Sequence()
             .Join(transform.DOMove(position, moveDuration).SetEase(Ease.InOutQuint))

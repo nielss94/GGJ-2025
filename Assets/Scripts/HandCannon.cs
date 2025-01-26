@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using DG.Tweening;
 using StarterAssets;
 using UnityEngine;
@@ -22,6 +23,8 @@ public class HandCannon : MonoBehaviour
     private Egg activeEgg;
     [SerializeField]
     private Egg eggPrefab;
+    [SerializeField]
+    private float cancelBreakDelay = 0.5f;
     [SerializeField]
     private float bulletForce = 10f;
     [SerializeField]
@@ -70,12 +73,17 @@ public class HandCannon : MonoBehaviour
             Debug.Log("Cant fire, player is not grounded");
             return;
         }
+        
+        OnFire?.Invoke();
+        eggActivationTime = Time.time;
+        StartCoroutine(WaitAndFire());
+    }
 
+    private IEnumerator WaitAndFire() {
+        yield return new WaitForSeconds(.2f);
         activeEgg = Instantiate(eggPrefab, firePoint.position, firePoint.rotation);
         activeEgg.Launch(bulletForce);
-        eggActivationTime = Time.time;
         activeEgg.OnBreak += OnEggBreak;
-        OnFire?.Invoke();
     }
 
     public void Teleport()
@@ -98,13 +106,16 @@ public class HandCannon : MonoBehaviour
             return;
         }
 
+        if (activeEgg.IsBreaking || activeEgg.Animating) {
+            return;
+        }
+
         // initiate egg swap
         initialTeleportFinished = true;
-        activeEgg.Break(() => {
-            player.TeleportPlayer(activeEgg.transform.position);
-            arms.enabled = true;
-            OnTeleport?.Invoke();
-        });
+        activeEgg.AnimateAndBreak();
+        player.TeleportPlayer(activeEgg.transform.position);
+        arms.enabled = true;
+        OnTeleport?.Invoke();
     }
 
     public void Cancel()
@@ -114,9 +125,14 @@ public class HandCannon : MonoBehaviour
             Debug.Log("Cant cancel, egg is not alive");
             return;
         }
+        OnCancel?.Invoke();
+        StartCoroutine(WaitAndBreak());
+    }
+
+    private IEnumerator WaitAndBreak() {
+        yield return new WaitForSeconds(cancelBreakDelay);
 
         activeEgg.Break();
-        OnCancel?.Invoke();
     }
 
     public void Reload()

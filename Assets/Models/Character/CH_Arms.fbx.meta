@@ -103,7 +103,7 @@ ModelImporter:
       takeName: Take 001
       internalID: 3060872287085348379
       firstFrame: 150
-      lastFrame: 180
+      lastFrame: 170
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -160,7 +160,7 @@ ModelImporter:
       name: Shoot Arm Gun
       takeName: Take 001
       internalID: -5059006814000262888
-      firstFrame: 250
+      firstFrame: 258
       lastFrame: 270
       wrapMode: 0
       orientationOffsetY: 0
