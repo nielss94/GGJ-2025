@@ -8,4 +8,8 @@ public class MainMenu : MonoBehaviour
     public void StartGame() {
         SceneController.Instance.LoadLevel(nextLevelName);
     }
+
+    public void QuitGame() {
+        Application.Quit();
+    }
 }
