@@ -9,6 +9,8 @@ public class PlayerControls : MonoBehaviour
     [SerializeField]
     private HandCannon handCannon;
 
+    private bool controlsEnabled = true;
+
     void Awake() {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
@@ -20,21 +22,29 @@ public class PlayerControls : MonoBehaviour
 
     void OnFire()
     {
+        if (!controlsEnabled) return;
         handCannon.Fire();
     }
 
     void OnCancel()
     {
+        if (!controlsEnabled) return;
         handCannon.Cancel();
     }
 
     void OnTeleport()
     {
+        if (!controlsEnabled) return;
         handCannon.Teleport();
     }
 
     void OnInteract()
     {
+        if (!controlsEnabled) return;
         playerInteraction.Interact();
+    }
+
+    public void DisableControls() {
+        controlsEnabled = false;
     }
 }

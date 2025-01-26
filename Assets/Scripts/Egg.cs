@@ -16,7 +16,7 @@ public class Egg : MonoBehaviour
     public bool CanRebirth { get { return canRebirth; } }
 
     private Rigidbody rb;
-
+    public Rigidbody RB { get { return rb; } }
     [SerializeField]
     private float breakSpeedThreshold = 0.1f;
     private bool isBreaking = false;
@@ -62,6 +62,10 @@ public class Egg : MonoBehaviour
     private void OnDestroy()
     {
         breakSequence?.Kill();
+    }
+
+    public void DisableMovement() {
+        rb.isKinematic = true;
     }
 
     public void AnimateAndBreak()

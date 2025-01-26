@@ -25,6 +25,7 @@ public class Player : MonoBehaviour
     public event Action OnPlayerDeath;
     private bool isDead = false;
     private CharacterController characterController;
+    private PlayerControls playerControls;  
     private Camera mainCamera;
     private bool hasFirstTeleportOccurred = false;
 
@@ -32,6 +33,7 @@ public class Player : MonoBehaviour
         characterController = GetComponent<CharacterController>();
         mainCamera = Camera.main;
         firstPersonController = GetComponent<FirstPersonController>();
+        playerControls = GetComponent<PlayerControls>();
     }
 
     void Start() {
@@ -52,6 +54,11 @@ public class Player : MonoBehaviour
     {
         TeleportPlayer(spawnPosition);
         isDead = false;
+    }
+
+    public void DisableControls() {
+        characterController.enabled = false;
+        playerControls.DisableControls();
     }
 
     public void TeleportPlayer(Vector3 position) {
