@@ -8,6 +8,8 @@ public class AudioManager : MonoBehaviour
     public float MusicVolume { get; private set; } = 1;
     public float SfxVolume { get; private set; } = 1;
     public float DialogueVolume { get; private set; } = 1;
+
+    [SerializeField] private GGJ2025EventEmitter travelingEmitter;
     private void Awake() {
         if (Instance != null && Instance != this) {
             Destroy(gameObject);
@@ -53,5 +55,9 @@ public class AudioManager : MonoBehaviour
         DialogueVolume = value;
         PlayerPrefs.SetFloat("dialogueVolume", DialogueVolume);
         FMODUnity.RuntimeManager.StudioSystem.setParameterByName("DialogueVolume", DialogueVolume);
+    }
+
+    public void SetTraveling(float value) {
+        travelingEmitter.SetTraveling(value);
     }
 }

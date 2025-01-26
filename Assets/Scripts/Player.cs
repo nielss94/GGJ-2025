@@ -15,8 +15,6 @@ public class Player : MonoBehaviour
     [SerializeField] private float firstTeleportDuration = 1.0f;
     [SerializeField] private bool rotateTowardsDestination = true;
     [SerializeField] private bool resetXRotation = false;
-
-    [SerializeField] private GGJ2025EventEmitter travelingEmitter;
     
     [Header("References")]
     [SerializeField] private Transform cameraRoot;
@@ -112,7 +110,8 @@ public class Player : MonoBehaviour
             .AppendCallback(() => {
                 Events.Rebirth();
             }).OnUpdate(() => {
-                travelingEmitter.SetTraveling(sequence.ElapsedPercentage());
+                AudioManager.Instance.SetTraveling(sequence.ElapsedPercentage());
             });
     }
 }
+
