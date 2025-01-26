@@ -21,7 +21,7 @@ public class Killbox : MonoBehaviour
         }
         if (other.TryGetComponent<Egg>(out Egg egg))
         {
-            egg.Break();
+            egg.Break(true);
         }
     }
 

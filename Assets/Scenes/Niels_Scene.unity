@@ -10080,6 +10080,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactText: {fileID: 1222191358}
   loadingScreen: {fileID: 0}
+  pauseMenu: {fileID: 0}
 --- !u!4 &940977147
 Transform:
   m_ObjectHideFlags: 0

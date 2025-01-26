@@ -51,6 +51,9 @@ public class Egg : MonoBehaviour
     [SerializeField]
     private float highVelocityThreshold = 5f;
 
+    [SerializeField]
+    private GameObject eggSplatter;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -77,8 +80,11 @@ public class Egg : MonoBehaviour
         });
     }
 
-    public void Break()
+    public void Break(bool splatter = false)
     {
+        if (splatter) {
+            Instantiate(eggSplatter, transform.position, eggSplatter.transform.rotation);
+        }
         isBreaking = true;
         OnEggBreak?.Invoke();
         OnBreak?.Invoke();
@@ -194,7 +200,7 @@ public class Egg : MonoBehaviour
 
         if (rb.linearVelocity.magnitude < breakSpeedThreshold && !isBreaking && aliveTime > minimumTimeBeforeSpeedCheck && inRebirthFreeZone)
         {
-            Break();
+            Break(true);
         }
     }
 

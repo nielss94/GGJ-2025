@@ -131,7 +131,7 @@ public class HandCannon : MonoBehaviour
     private IEnumerator WaitAndBreak() {
         yield return new WaitForSeconds(cancelBreakDelay);
 
-        activeEgg.Break();
+        activeEgg.Break(true);
     }
 
     public void Reload()
