@@ -8,6 +8,7 @@ using DG.Tweening;
 public class Egg : MonoBehaviour
 {
     public UnityEvent OnEggBreak;
+    public UnityEvent OnHighVelocityCollision;
     public event Action OnBreak;
 
     [SerializeField]
@@ -46,6 +47,10 @@ public class Egg : MonoBehaviour
 
     private bool animating = false;
     public bool Animating { get { return animating; } }
+
+    [SerializeField]
+    private float highVelocityThreshold = 5f;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -198,5 +203,11 @@ public class Egg : MonoBehaviour
         canRebirth = !v;
     }
 
-    
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.relativeVelocity.magnitude >= highVelocityThreshold)
+        {
+            OnHighVelocityCollision?.Invoke();
+        }
+    }
 }
