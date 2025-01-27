@@ -490,7 +490,6 @@ MonoBehaviour:
   Banks:
   - AmbianceSounds
   - egg
-  - Global
   - lava
   - PIEL
   - player_sounds

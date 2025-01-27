@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Bank" id="{610c2537-542d-4321-b63c-143c0254e63e}">
+		<property name="name">
+			<value>AmbianceSounds</value>
+		</property>
+		<relationship name="folder">
+			<destination>{66781783-8250-4bb8-a16e-d6e4ff9c2238}</destination>
+		</relationship>
+	</object>
+</objects>
