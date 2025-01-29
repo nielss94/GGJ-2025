@@ -4,12 +4,21 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     [SerializeField] private string nextLevelName;
-   
-    public void StartGame() {
+
+
+    void Start()
+    {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+    }
+
+    public void StartGame()
+    {
         SceneController.Instance.LoadLevel(nextLevelName);
     }
 
-    public void QuitGame() {
+    public void QuitGame()
+    {
         Application.Quit();
     }
 }
