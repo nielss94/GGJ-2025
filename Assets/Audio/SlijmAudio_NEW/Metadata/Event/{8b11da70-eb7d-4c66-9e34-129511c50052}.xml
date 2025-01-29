@@ -5,7 +5,7 @@
 			<value>Ambience_event</value>
 		</property>
 		<property name="outputFormat">
-			<value>5</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{84061f20-8572-4b40-a07f-74fa15da3ffb}</destination>
@@ -148,8 +148,11 @@
 		<property name="spawnRate">
 			<value>28</value>
 		</property>
+		<property name="minimumScatterDistance">
+			<value>0</value>
+		</property>
 		<property name="maximumScatterDistance">
-			<value>950</value>
+			<value>0</value>
 		</property>
 		<property name="pitchRandomization">
 			<value>3.4000001</value>
@@ -160,7 +163,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{f65a8c22-fd6b-46f6-82db-32767f595c53}">
 		<property name="volume">
-			<value>-1</value>
+			<value>-13.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -229,10 +232,10 @@
 			<value>92</value>
 		</property>
 		<property name="minimumScatterDistance">
-			<value>5.4000001</value>
+			<value>0</value>
 		</property>
 		<property name="maximumScatterDistance">
-			<value>9.40000057</value>
+			<value>0</value>
 		</property>
 		<property name="pitchRandomization">
 			<value>5.80000019</value>
@@ -243,7 +246,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{4d363c29-e720-41cb-8b23-1411e9edd8ca}">
 		<property name="volume">
-			<value>-9</value>
+			<value>-17</value>
 		</property>
 		<property name="name">
 			<value>Audio 3</value>
@@ -354,12 +357,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d0ef6deb-5f9d-4c75-9abd-048fc3b4bfe0}">
-		<property name="surroundPanDirection">
-			<value>-10</value>
-		</property>
-		<property name="surroundPanExtent">
-			<value>320</value>
-		</property>
 		<property name="surroundLFELevel">
 			<value>10</value>
 		</property>
