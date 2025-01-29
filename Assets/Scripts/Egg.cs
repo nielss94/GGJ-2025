@@ -28,13 +28,13 @@ public class Egg : MonoBehaviour
 
     [SerializeField]
     private float breakAnimationDuration = 0.2f;
-    
+
     [SerializeField]
     private float scaleIncrease = 2.5f;
 
     [SerializeField]
     private Ease scaleEase = Ease.OutBack;
-    
+
     [SerializeField]
     private Ease blendShapeEase = Ease.InOutQuad;
 
@@ -66,6 +66,12 @@ public class Egg : MonoBehaviour
     private Renderer eggSplatterInnerRenderer;
     [SerializeField]
     private Renderer eggSplatterOuterRenderer;
+
+    [SerializeField]
+    private float bounceForceMultiplier = 1.5f;
+    [SerializeField]
+    private float constantBounceForce = 10f;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -79,7 +85,8 @@ public class Egg : MonoBehaviour
         breakSequence?.Kill();
     }
 
-    public void DisableMovement() {
+    public void DisableMovement()
+    {
         rb.isKinematic = true;
     }
 
@@ -87,14 +94,16 @@ public class Egg : MonoBehaviour
     {
         if (animating) return;
         animating = true;
-        AnimateBreaking(() => {
+        AnimateBreaking(() =>
+        {
             Break();
         });
     }
-    public void Bleed() {
+    public void Bleed()
+    {
         var sequence = DOTween.Sequence();
-        sequence.Join(DOTween.To(() => eggSplatterInnerRenderer.material.GetFloat("_Metallic"), 
-                x => eggSplatterInnerRenderer.material.SetFloat("_Metallic", x), 
+        sequence.Join(DOTween.To(() => eggSplatterInnerRenderer.material.GetFloat("_Metallic"),
+                x => eggSplatterInnerRenderer.material.SetFloat("_Metallic", x),
                 eggSplatterInnerMetallicResult, 0.5f))
             .Join(DOTween.To(() => eggSplatterInnerRenderer.material.GetColor("_BaseColor"),
                 x => eggSplatterInnerRenderer.material.SetColor("_BaseColor", x),
@@ -109,10 +118,11 @@ public class Egg : MonoBehaviour
 
     public void Break(bool splatter = false)
     {
-        if (splatter) {
-            
+        if (splatter)
+        {
+
             Instantiate(eggSplatter, transform.position, eggSplatter.transform.rotation);
-        } 
+        }
         isBreaking = true;
         OnEggBreak?.Invoke();
         OnBreak?.Invoke();
@@ -131,7 +141,7 @@ public class Egg : MonoBehaviour
         // Check if we're on the ground using a small raycast
         bool isGrounded = Physics.Raycast(transform.position, Vector3.down, out RaycastHit hit, 1f);
         Vector3 targetPosition = originalPosition;
-        
+
         if (isGrounded)
         {
             // Only adjust height if we're on the ground
@@ -169,7 +179,7 @@ public class Egg : MonoBehaviour
                 transform.DOScale(stageTargetScale, breakAnimationDuration)
                     .SetEase(scaleEase)
             );
-            
+
             if (isGrounded)
             {
                 breakSequence.Join(
@@ -191,7 +201,8 @@ public class Egg : MonoBehaviour
                         breakSequence.Join(
                             DOTween.To(
                                 () => color.a,
-                                x => {
+                                x =>
+                                {
                                     color.a = x;
                                     material.color = color;
                                 },
@@ -209,7 +220,8 @@ public class Egg : MonoBehaviour
             }
         }
 
-        breakSequence.OnComplete(() => {
+        breakSequence.OnComplete(() =>
+        {
             onBreak?.Invoke();
         });
     }
@@ -244,5 +256,21 @@ public class Egg : MonoBehaviour
         {
             OnHighVelocityCollision?.Invoke();
         }
+
+        if (collision.transform.TryGetComponent(out BouncyWall bouncyWall))
+        {
+            Bounce(collision.contacts[0].normal);
+        }
+    }
+
+    private void Bounce(Vector3 surfaceNormal)
+    {
+        if (rb == null) return;
+
+        // Calculate reflection direction using Vector3.Reflect
+        Vector3 reflectionDirection = Vector3.Reflect(rb.linearVelocity.normalized, surfaceNormal);
+
+        rb.linearVelocity = Vector3.zero; // Clear current velocity
+        rb.AddForce(reflectionDirection * constantBounceForce, ForceMode.Impulse);
     }
 }

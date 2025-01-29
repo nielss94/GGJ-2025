@@ -197,6 +197,7 @@ MonoBehaviour:
   eggSplatterOuterColor: {r: 1, g: 0.5014026, b: 0, a: 0.78431374}
   eggSplatterInnerRenderer: {fileID: 7625991013355504495}
   eggSplatterOuterRenderer: {fileID: 5936498156239183157}
+  bounceForceMultiplier: 2
 --- !u!114 &-8188999363079394510
 MonoBehaviour:
   m_ObjectHideFlags: 0
